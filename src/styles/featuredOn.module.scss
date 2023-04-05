@@ -1,0 +1,327 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  background-color: #fff;
+}
+
+.global {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.featuredOnStyler {
+  position: relative;
+  display: block;
+}
+
+.featuredOnStars {
+  position: absolute;
+  top: calc(100% - 231px);
+  right: 4px;
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+  background: url("../assets/img/featuredOnStars.svg") right center / auto 100% no-repeat;
+}
+
+.featuredOnWrapper {
+  padding-bottom: 0;
+  margin-top: 95px;
+  margin-right: 54px;
+  background: radial-gradient(129.72% 141.01% at 50% 50%, rgb(247, 247, 247) 0%, rgb(250, 250, 250) 100%);
+  border-radius: 0 40px 40px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.featuredOnGreySquare {
+  width: 506px;
+  height: 506px;
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgba(255, 255, 255, 0.2) 0%, rgba(250, 250, 250, 0.2) 100%);
+  border-radius: 95px;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: -90px;
+  left: 234px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.featuredOnGreySquareRight {
+  width: 506px;
+  height: 506px;
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgb(255, 255, 255) 0%, rgb(250, 250, 250) 100%);
+  opacity: 0.5;
+  border-radius: 95px;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: -279px;
+  right: 88px;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.featuredOnDots {
+  position: absolute;
+  top: -3px;
+  right: 382px;
+  z-index: 0;
+}
+
+.featuredOnDotsSpan {
+  display: inline-block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  max-width: 100%;
+}
+
+.featuredOnDotsSecondSpan {
+  display: block;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.featuredOnDotsImageUnderSpan {
+  display: block;
+  max-width: 100%;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.featuredOnDotsImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0;
+  height: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+.featuredOnDivideLine {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 665px;
+  height: 1px;
+  transform: translateX(-50%);
+  background-color: rgb(210, 210, 210);
+}
+
+.featuredOnContainer {
+  max-width: 1192px;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.featuredOnInner {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.featuredOnTitle {
+  transform: translate(0px, 0px);
+  font-family: Gilroy, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 54px;
+  color: rgb(33, 33, 33);
+  margin: 0 0 32px;
+  padding: 48px 0 16px;
+  text-align: center;
+  width: 100%;
+}
+
+.featuredOnCompanies {
+  transform: translate3d(0px, 0px, 0px);
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  max-width: 1132px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.featuredOnCompaniesImages {
+  margin-bottom: 48px;
+  height: 100%;
+  width: 189px;
+}
+
+@media screen and (max-width: 1920px) {
+  .featuredOnContainer {
+    max-width: 1312px;
+  }
+  .featuredOnTitle {
+    font-size: 44px;
+    line-height: 54px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .featuredOnContainer {
+    max-width: 1192px;
+  }
+  .featuredOnTitle {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .featuredOnWrapper {
+    margin-top: 560px;
+    margin-right: 54px;
+  }
+  .featuredOnContainer {
+    max-width: 1032px;
+  }
+  .featuredOnTitle {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .featuredOnStars {
+    top: calc(100% - 167px);
+    width: 100%;
+    z-index: -1;
+    right: 0;
+    height: 365px;
+  }
+  .featuredOnWrapper {
+    margin-right: 0;
+    margin-top: 95px;
+  }
+  .featuredOnDots {
+    right: -15%;
+  }
+  .featuredOnContainer {
+    max-width: 1024px;
+    padding: 0 40px;
+  }
+  .featuredOnTitle {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .featuredOnCompaniesImages {
+    height: 22px;
+    max-height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .featuredOnWrapper {
+    margin-top: 560px;
+  }
+  .featuredOnDots {
+    right: -15%;
+  }
+  .featuredOnContainer {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+  .featuredOnCompanies {
+    max-width: 570px;
+  }
+  .featuredOnCompaniesImages {
+    height: 22px;
+    max-height: 100%;
+    flex: 0 0 50%;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .featuredOnWrapper {
+    background: radial-gradient(129.72% 141.01% at 50% 50%, rgb(247, 247, 247) 0%, rgb(250, 250, 250) 100%);
+    border-radius: 0 40px 40px 0;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 48px;
+    margin-top: 510px;
+  }
+  .featuredOnStars {
+    top: calc(100% - 33px);
+    width: 100%;
+    z-index: -1;
+    right: 0;
+    height: 190px;
+  }
+  .featuredOnGreySquare {
+    top: 119px;
+    left: 334px;
+  }
+  .featuredOnTitle {
+    font-size: 28px;
+    line-height: 33px;
+    padding-bottom: 24px;
+  }
+  .featuredOnCompanies {
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-wrap: wrap;
+    max-width: 570px;
+  }
+  .featuredOnCompaniesImages {
+    min-height: 28px;
+    flex: 0 0 100%;
+    margin-bottom: 48px;
+  }
+}

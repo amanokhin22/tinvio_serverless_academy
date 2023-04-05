@@ -1,0 +1,680 @@
+//desktop view
+.whyChooseStyled {
+  margin-top: 140px;
+  padding-top: 100px;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.flexibleBackgroundStyled {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.flexibleBackgroundContainer {
+  width: 100%;
+  background: #363636;
+  opacity: 0.88;
+  overflow: hidden;
+  border-radius: 32px 0 0 32px;
+  position: relative;
+  height: auto;
+  left: 54px;
+  top: -10px;
+  transform: skewY(-8deg);
+}
+
+.flexibleRotateSquare1 {
+  left: -500px;
+  top: -177px;
+  width: 639.27px;
+  height: 639.27px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 67.6132px;
+  transform: rotate(-38deg);
+}
+
+.flexibleRotateSquare2 {
+  position: absolute;
+  width: 698.85px;
+  height: 698.85px;
+  left: 950px;
+  top: 285px;
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgba(55, 55, 55, 0.1) 0%, rgba(250, 250, 250, 0.1) 100%);
+  border-radius: 57.0249px;
+  transform: rotate(-43deg);
+}
+
+.flexibleDotsRight {
+  position: absolute;
+  width: 290.89px;
+  height: 220.13px;
+  left: 928px;
+  top: 110px;
+  transform: rotate(4deg);
+}
+
+.flexibleDotsUpLeft {
+  position: absolute;
+  width: 465px;
+  height: 351.89px;
+  left: 0;
+  top: -80px;
+  transform: rotate(3deg);
+}
+
+.flexibleDotsLeft {
+  position: absolute;
+  width: 465px;
+  height: 351.89px;
+  left: -171px;
+  top: 389px;
+  transform: rotate(3deg);
+}
+
+.featuresContainer {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  max-width: 1024px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.featuresTitle {
+  position: absolute;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: left;
+  display: flex;
+  color: #FFFFFF;
+  margin: 0 0 20px 85px;
+  top: -48px;
+}
+
+.swiperWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  top: 25px;
+  left: 50px;
+}
+
+.mySwiper {
+  width: 100%;
+
+  .swiperImage {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 30px;
+      object-fit: cover;
+    }
+  }
+}
+
+.swiperImage {
+  width: 100%;
+  height: 100%;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 947px;
+  height: 330px;
+  background: #FFFFFF;
+  border-radius: 32px;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftWrapperImage {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.upperTextContainer {
+  background-color: #F1F1F1;
+  position: absolute;
+  display: flex;
+  width: 750px;
+  height: 120px;
+  top: 32px;
+  left: 32px;
+  border-radius: 32px;
+}
+
+.upperText {
+  width: 620px;
+  height: 72px;
+  position: relative;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #212121;
+  padding: 24px 0 24px 24px;
+}
+
+.quotesContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 70%;
+}
+
+.quotes {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.bottomTextContainer {
+  position: relative;
+  display: flex;
+  width: 330px;
+  height: 49px;
+  top: 170px;
+  padding: 28px 0 52px 50px;
+  justify-content: space-between;
+}
+
+.sejadahImage {
+  position: relative;
+  width: 96px;
+  height: 49px;
+}
+
+.ownersContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 180px;
+  height: 41px;
+  padding-left: 16px;
+}
+
+.spanTitle {
+  position: relative;
+  width: 185px;
+  height: 22px;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #212121;
+  padding-bottom: 4px;
+}
+
+.spanOwners {
+  position: relative;
+  width: 346px;
+  height: 15px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #5C5C5C;
+}
+
+.Image {
+  position: relative;
+  width: 260px;
+  height: 330px;
+}
+
+.swiperNavNext,
+.swiperNavPrev {
+  top: 74%;
+  position: absolute;
+  transform: translateY(-50%);
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+}
+
+.swiperNavNext {
+  right: 0;
+  left: 99px;
+  background-image: url("../assets/img/slideNext.svg");
+}
+
+.swiperNavPrev {
+  left: 46px;
+  background-image: url("../assets/img/slidePrev.svg");
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+@media screen and (max-width: 1920px) {
+  .whyChooseStyled {
+    margin-top: 180px;
+  }
+  .flexibleBackgroundStyled {
+    height: 750px;
+  }
+  .flexibleBackgroundContainer {
+    border-radius: 70px 0 0 70px;
+    height: 750px;
+  }
+  .flexibleRotateSquare1 {
+    left: -145px;
+    top: -170px;
+  }
+  .flexibleRotateSquare2 {
+    left: 1195px;
+    top: 300px;
+  }
+  .flexibleDotsLeft {
+    top: 548px;
+    left: 37px;
+  }
+  .flexibleDotsUpLeft {
+    left: 220px;
+    top: -107px;
+  }
+  .flexibleDotsRight {
+    transform: rotate(6deg);
+    left: 1170px;
+    top: 138px;
+  }
+  .featuresContainer {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .swiperWrapper {
+    top: 64px;
+  }
+  .featuresTitle {
+    top: -14px;
+    font-size: 44px;
+    line-height: 54px;
+  }
+  .swiperNavNext,
+  .swiperNavPrev {
+    width: 39px;
+    height: 39px;
+    top: 72%;
+  }
+  .swiperNavNext {
+    left: 105px;
+  }
+  .swiperNavPrev {
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .whyChooseStyled {
+    margin-top: 180px;
+    padding-top: 100px;
+  }
+  .flexibleBackgroundStyled {
+    max-width: none;
+  }
+  .flexibleBackgroundContainer {
+    width: 100%;
+    border-radius: 32px 0 0 32px;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+  }
+  .flexibleRotateSquare1 {
+    left: -550px;
+    top: -177px;
+  }
+  .flexibleRotateSquare2 {
+    left: 939px;
+    top: 273px;
+  }
+  .flexibleDotsLeft {
+    width: 326px;
+    height: 247px;
+    left: -122px;
+    top: 472px;
+    background-size: 42px 43px;
+    transform: rotate(6deg);
+  }
+  .flexibleDotsLeftImage {
+    width: 326px;
+    height: 247px;
+  }
+  .flexibleDotsRight {
+    transform: rotate(5deg);
+    left: 890px;
+    top: 150px;
+  }
+  .featuresContainer {
+    max-width: 1192px;
+  }
+  .featuresTitle {
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0;
+  }
+  .swiperImage {
+    width: 90%;
+    height: 90%;
+  }
+  .swiperNavNext,
+  .swiperNavPrev {
+    width: 36px;
+    height: 36px;
+    top: 72%;
+  }
+  .swiperNavNext {
+    left: 114px;
+  }
+  .swiperNavPrev {
+    left: 54px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .flexibleBackgroundContainer {
+    top: -60px;
+  }
+  .featuresContainer {
+    max-width: 1032px;
+  }
+  .flexibleDotsLeft {
+    left: -204px;
+    top: 390px;
+    transform: rotate(3deg);
+  }
+  .flexibleDotsUpLeft {
+    left: -72px;
+    top: -71px;
+  }
+  .flexibleRotateSquare2 {
+    left: 939px;
+    top: 198px;
+    transform: rotate(-45deg);
+  }
+  .flexibleDotsRight {
+    left: 793px;
+    top: 155px;
+    transform: rotate(5deg)
+  }
+  .featuresTitle {
+    top: -90px;
+    margin: 0 0 20px 0;
+  }
+  .swiperWrapper {
+    top: -10px;
+  }
+  .swiperNavNext,
+  .swiperNavPrev {
+    width: 32px;
+    height: 32px;
+    top: 75%;
+  }
+  .swiperNavNext {
+    left: 100px;
+  }
+  .swiperNavPrev {
+    left: 47px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .whyChooseStyled {
+    margin-top: 140px;
+  }
+  .flexibleBackgroundContainer {
+    top: 0;
+    height: 550px;
+  }
+  .featuresContainer {
+    max-width: 1024px;
+    padding: 0 40px;
+  }
+  .swiperWrapper {
+    top: 33px;
+    left: 70px;
+  }
+  .swiperImage {
+    width: 900px;
+    height: 330px;
+  }
+  .flexibleDotsLeft {
+    left: -105px;
+    top: 380px;
+    transform: rotate(6deg);
+  }
+  .featuresTitle {
+    top: -50px;
+    margin: 0 0 20px 65px;
+  }
+  .imageWrapper {
+    width: 900px;
+    height: 320px;
+  }
+  .Image {
+    width: 250px;
+    height: 320px;
+  }
+  .swiperNavNext,
+  .swiperNavPrev {
+    width: 32px;
+    height: 32px;
+    top: 72%;
+  }
+  .swiperNavNext {
+    left: 97px;
+  }
+  .swiperNavPrev {
+    left: 44px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flexibleBackgroundContainer {
+    border-radius: 40px 0 0 40px;
+    height: auto;
+    top: -20px;
+    left: 0;
+  }
+  .flexibleRotateSquare1 {
+    left: -269px;
+    top: -197px;
+    width: 626px;
+    height: 626px;
+    border-radius: 72px;
+    transform: rotate(-45deg);
+  }
+
+  .flexibleRotateSquare2 {
+    width: 841px;
+    height: 841px;
+    left: 598px;
+    top: 130px;
+    border-radius: 72px;
+    transform: rotate(-45deg);
+  }
+
+  .featuresContainer {
+    max-width: 100%;
+    padding: 0;
+  }
+  .featuresTitle {
+    top: -50px;
+    margin: 0 0 40px;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    padding: 0;
+  }
+  .swiperWrapper {
+    left: 0;
+  }
+  .imageWrapper {
+    max-width: 490px;
+    height: 610px;
+    margin: 0 auto;
+  }
+  .imageContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .swiperImage {
+    width: 490px;
+    height: 610px;
+    border-radius: 32px;
+  }
+  .Image {
+    width: 240px;
+    height: 290px;
+  }
+  .flexibleDotsLeft {
+    left: -108px;
+    top: 670px;
+    transform: rotate(5deg);
+  }
+  .upperTextContainer {
+    width: 470px;
+    height: 136px;
+    top: -4px;
+    left: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .upperText {
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: auto;
+    height: 100%;
+    position: relative;
+    padding: 24px 24px 24px 32px;
+  }
+  .quotesContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+  }
+  .bottomTextContainer {
+    position: relative;
+    top: 0;
+    padding: 28px 0 52px 10px;
+    justify-content: flex-start;
+  }
+  .ownersContainer {
+    gap: 5px;
+  }
+  .swiperNavNext,
+  .swiperNavPrev {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .whyChooseStyled {
+    margin-top: 120px;
+    padding-top: 82px;
+    padding-bottom: 69px;
+  }
+
+  .flexibleBackgroundContainer {
+    border-radius: 40px 0 0 40px;
+    height: auto;
+    left: 0;
+    top: -0;
+  }
+  .flexibleRotateSquare1 {
+    left: -470px;
+    top: -161px;
+    width: 613.22px;
+    height: 613.22px;
+  }
+
+  .flexibleRotateSquare2 {
+    left: 313.15px;
+    top: 368.6px;
+    width: 539.1px;
+    height: 539.1px;
+    border-radius: 46px;
+  }
+  .featuresTitle {
+    top: 2px;
+    margin: 0 0 40px;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    padding: 0;
+  }
+  .swiperWrapper {
+    left: 17.5px;
+    top: 60px;
+  }
+  .swiperImage {
+    width: 343px;
+    height: 550px;
+    border-radius: 32px;
+  }
+  .imageWrapper {
+    max-width: 343px;
+    height: 550px;
+  }
+  .upperTextContainer {
+    border-radius: 0;
+    width: 327px;
+    height: 178px;
+  }
+  .ownersContainer {
+    padding-left: 10px;
+  }
+  .spanOwners {
+    width: 170px;
+    height: 40px;
+  }
+  .Image {
+    width: 183px;
+    height: 235px;
+  }
+}

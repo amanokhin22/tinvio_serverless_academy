@@ -1,0 +1,813 @@
+
+.moreMoneyWrapper {
+  width: 100%;
+  position: relative;
+  height: 706px;
+  margin-top: 299px;
+  margin-bottom: auto;
+}
+
+.moreMoneyContainer {
+  max-width: 1192px;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.moreMoneyInner {
+  position: relative;
+  max-width: 555px;
+  width: 100%;
+  z-index: 1;
+  margin: 0;
+}
+
+.moreMoneyTitle {
+  margin: 290px 0 24px;
+  padding: 190px 0 0;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: left;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(33, 33, 33);
+}
+
+.moreMoneyTitleSpan {
+  position: relative;
+  z-index: 1;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: left;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(33, 33, 33);
+}
+
+.moreMoneyTitleWrap {
+  display: inline-block;
+  min-width: 192px;
+  text-align: left;
+  font-size: 36px;
+  line-height: 44px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(33, 33, 33);
+}
+
+.moreMoneyTitleWrapSpan::before {
+  background: rgb(255, 255, 255);
+  animation: 0.35s steps(10) 0s 1 normal forwards running moreMoneyTitleWrapSpan;
+  height: 40px;
+  top: 3px;
+  content: "";
+  position: absolute;
+  inset: 3px -5px 0px 0px;
+  text-align: left;
+  font-size: 36px;
+  line-height: 44px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  white-space: nowrap;
+  color: rgb(255, 71, 77);
+}
+
+.moreMoneyTitleWrapSpan {
+  color: rgb(255, 71, 77);
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  text-align: left;
+  font-size: 36px;
+  line-height: 44px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  //position: relative;
+}
+
+.moreMoneyTitleWrapSpan::after {
+  width: 2px;
+  background: rgb(33, 33, 33);
+  animation: 0.35s steps(10) 0s 1 normal forwards running, 750ms steps(10) 0s infinite normal none running;
+  margin: 0 0 0 2px;
+  height: 40px;
+  top: 3px;
+  content: "";
+  position: absolute;
+  inset: 3px -5px 0px 0px;
+  color: rgb(255, 71, 77);
+  white-space: nowrap;
+  text-align: left;
+  font-size: 36px;
+  line-height: 44px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.moreMoneyButtonsWrapper {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  max-width: 387px;
+  margin: 0 0 24px;
+  width: 100%;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.moreMoneyButton107 {
+  max-width: 528px;
+  height: 40px;
+  width: 107px;
+  background: rgb(243, 244, 245);
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.moreMoneyButton107:hover {
+  background-color: transparent;
+}
+
+.moreMoneyButton107Border {
+  max-width: 528px;
+  height: 40px;
+  width: 107px;
+  background: rgb(243, 244, 245);
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid rgb(33, 33, 33);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.moreMoneyList {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.moreMoneyItem {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(33, 33, 33);
+  margin: 0 0 8px;
+  padding: 0 0 0 27px;
+  position: relative;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.moreMoneyItem:before {
+  content: "";
+  position: absolute;
+  background: url("../assets/img/moreMoneySquare.svg");
+  width: 14px;
+  height: 14px;
+  left: 0;
+  top: 4px;
+}
+
+.moreMoneyItem:last-child {
+  margin: 0;
+}
+
+.moreMoneyBottomButton {
+  margin: 32px 0 0;
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 700;
+  width: 180px;
+  height: 48px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 0;
+  border: none;
+  border-radius: 16px;
+  background-color: #ff474d;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.moreMoneyBottomButton:hover {
+  background-color: #ff474dcc;
+}
+
+.moreMoneyGreySquare {
+  display: block;
+  width: 478px;
+  height: 478px;
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgba(218, 218, 218, 0.15) 0%, rgba(250, 250, 250, 0.15) 100%);
+  border-radius: 28px;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 108px;
+  left: unset;
+  right: calc(50% + 400px);
+}
+
+.moreMoneyPurpleSquare {
+  position: absolute;
+  width: 559px;
+  height: 559px;
+  background: rgba(251, 36, 43, 0.6);
+  border-radius: 72px;
+  transform: rotate(-45deg);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  left: 62%;
+  top: 55px;
+  margin-top: 0;
+}
+
+.moreMoneyRedSquare {
+  width: 490px;
+  height: 490px;
+  background: rgb(251, 36, 43);
+  border-radius: 62px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.moreMoneyNull {
+  transform: rotate(45deg);
+  width: 400px;
+  height: 400px;
+  position: relative;
+  display: block;
+}
+
+.moreMoneyLeftMock {
+  position: absolute;
+  left: -139px;
+  top: -102px;
+  width: 300px;
+  height: 488px;
+  transition: opacity 0.4s ease-in 0s;
+  opacity: 1;
+}
+
+.moreMoneyImageInner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+}
+
+.moreMoneyMockSpan {
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.moreMoneyMockImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0;
+  height: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.moreMoneyRightMock {
+  position: absolute;
+  left: 116px;
+  top: 42px;
+  background-size: contain;
+  width: 300px;
+  height: 488px;
+  transition: opacity 0.4s ease-in 0.2s;
+  opacity: 1;
+}
+
+.moreMoneyStars {
+  position: absolute;
+  left: -251px;
+  top: -57px;
+  display: block;
+}
+
+.moreMoneyStarsUpperSpan {
+  display: inline-block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  max-width: 100%;
+}
+
+.moreMoneyStarsBottomSpan {
+  display: block;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.moreMoneyStarsFirstImage {
+  display: block;
+  max-width: 100%;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.moreMoneyStarsImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0;
+  height: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+.moreMoneySquareDots {
+  position: absolute;
+  left: 133px;
+  top: -78px;
+}
+
+.moreMoneyDotsUpperSpan {
+  display: inline-block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  max-width: 100%;
+}
+
+.moreMoneyDotsBottomSpan {
+  display: block;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.moreMoneyDotsFirstImage {
+  display: block;
+  max-width: 100%;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.moreMoneyDotsImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0;
+  height: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+.moreMoneyDots {
+  display: none;
+}
+
+@media screen and (max-width: 1920px) {
+  .moreMoneyContainer {
+    max-width: 1312px;
+  }
+  .moreMoneyTitle {
+    margin: 90px 0 24px;
+    font-size: 43px;
+    line-height: 54px;
+  }
+  .moreMoneyTitleSpan {
+    font-size: 43px;
+    line-height: 54px;
+  }
+
+  .moreMoneyTitleWrap {
+    font-size: 43px;
+    line-height: 54px;
+  }
+  .moreMoneyTitleWrapSpan {
+    font-size: 43px;
+    line-height: 54px;
+  }
+  .moreMoneyItem {
+    font-size: 18px;
+  }
+  .moreMoneyBottomButton {
+    width: 210px;
+    height: 56px;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 18px;
+    padding: 16px 0;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .moreMoneyContainer {
+    max-width: 1192px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .moreMoneyWrapper {
+    height: 295px;
+  }
+  .moreMoneyContainer {
+    max-width: 1032px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .moreMoneyWrapper {
+    height: 701px;
+    margin-top: 0;
+  }
+  .moreMoneyContainer {
+    max-width: 1024px;
+    padding: 0 40px;
+  }
+  .moreMoneyInner {
+    max-width: 500px;
+  }
+  .moreMoneyTitle {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .moreMoneyTitleSpan {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .moreMoneyTitleWrap {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .moreMoneyList {
+    padding-left: 20px;
+  }
+  .moreMoneyItem {
+    margin: 0 0 12px -20px;
+  }
+  .moreMoneyItem:last-child {
+    margin: 0 0 12px -20px;
+  }
+  .moreMoneyGreySquare {
+    right: auto;
+    top: 221px;
+    left: -277px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .moreMoneyWrapper {
+    height: 896px;
+    margin-top: 0;
+  }
+  .moreMoneyContainer {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+  .moreMoneyInner {
+    margin: 0 auto;
+    max-width: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .moreMoneyTitle {
+    margin: 0 0 24px;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+  }
+  .moreMoneyTitleSpan {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .moreMoneyTitleWrap {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .moreMoneyTitleWrapSpan {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .moreMoneyTitleWrapSpan::before {
+    height: 36px;
+  }
+  .moreMoneyTitleWrapSpan::after {
+    height: 36px;
+  }
+  .moreMoneyList {
+    margin: 0 0 0 50px;
+  }
+  .moreMoneyItem {
+    margin: 0 0 12px -20px;
+  }
+  .moreMoneyItem:last-child {
+    margin: 0 0 0 -20px;
+  }
+  .moreMoneyGreySquare {
+    right: auto;
+    top: 221px;
+    left: -277px;
+  }
+  .moreMoneyPurpleSquare {
+    position: relative;
+    top: 120px;
+    left: 15%;
+    margin-top: 40px;
+  }
+  .moreMoneyLeftMock {
+    right: 39%;
+    left: auto;
+    top: -95px;
+    width: 330px;
+    height: 536px;
+  }
+  .moreMoneyRightMock {
+    top: 0;
+    left: 47%;
+    width: 330px;
+    height: 536px;
+  }
+  .moreMoneyStars {
+    left: -202px;
+    top: -107px;
+  }
+  .moreMoneyDots {
+    display: block;
+    position: absolute;
+    top: 58%;
+    right: 0;
+    transform: translateX(50%);
+  }
+  .moreMoneyDotsFirstSpan {
+    display: inline-block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    max-width: 100%;
+  }
+  .moreMoneyDotsSecondSpan {
+    box-sizing: border-box;
+    display: block;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+  .moreMoneyDotsFirstImageDots {
+    display: block;
+    max-width: 100%;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .moreMoneyDotsSecondImageDots {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0;
+    height: 0;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .moreMoneyWrapper {
+    width: 100%;
+    position: relative;
+    height: 765px;
+    margin-top: 0;
+  }
+  .moreMoneyContainer {
+    max-width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .moreMoneyInner {
+    position: relative;
+    max-width: 335px;
+    width: 100%;
+    z-index: 1;
+    margin: 0 auto;
+  }
+  .moreMoneyTitle {
+    margin: 0 0 24px;
+    padding: 140px 0 0;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+  }
+  .moreMoneyTitleSpan {
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .moreMoneyTitleWrap {
+    min-width: 170px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .moreMoneyTitleWrapSpan {
+    text-align: center;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .moreMoneyTitleWrapSpan::before {
+    height: 32px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .moreMoneyTitleWrapSpan::after {
+    height: 32px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .moreMoneyButton107 {
+    margin: 0 16px 0 0;
+  }
+  .moreMoneyButton107Border {
+    margin: 0 16px 0 0;
+  }
+  .moreMoneyItem {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .moreMoneyItem:last-child {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .moreMoneyGreySquare {
+    right: auto;
+    top: 221px;
+    left: -277px;
+  }
+  .moreMoneyPurpleSquare {
+    position: relative;
+    background: rgba(251, 36, 43, 0.6);
+    border-radius: 72px;
+    transform: rotate(-45deg) translateX(-71%);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    top: -120px;
+    left: 50%;
+    width: 451px;
+    height: 451px;
+    margin-top: 57px;
+  }
+  .moreMoneyRedSquare {
+    width: 395px;
+    height: 395px;
+  }
+  .moreMoneyLeftMock {
+    width: 225px;
+    height: 520px;
+    right: 45%;
+    top: -75px;
+    left: auto;
+  }
+  .moreMoneyRightMock {
+    width: 225px;
+    top: 0;
+    left: 47%;
+    height: 536px;
+  }
+  .moreMoneyStars {
+    left: -202px;
+    top: -107px;
+  }
+  .moreMoneySquareDots {
+    left: 133px;
+    top: -78px;
+  }
+}

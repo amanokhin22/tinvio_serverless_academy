@@ -1,0 +1,70 @@
+.flagWrapper {
+  position: absolute;
+  margin-right: 4px;
+  text-transform: uppercase;
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+}
+
+.arrowWrapper {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  transform: rotate(0deg);
+  margin-left: 4px;
+}
+.arrowWrapperDir {
+  transform: rotate(180deg);
+  margin-left: 4px;
+}
+
+.languageWrapper {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  margin-left: 24px;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.languageHead {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.flags {
+  position: absolute;
+  display: flex;
+  z-index: 5;
+  left: -4px;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 12px 0;
+  margin-bottom: 8px;
+  -webkit-box-align: center;
+  align-items: center;
+  box-shadow: rgba(33, 33, 33, 0.1) 4px 4px 16.4664px 0;
+  list-style: none;
+  border-bottom: 1px solid rgb(243, 244, 245);
+  width: 48px;
+  height: 139px;
+  cursor: pointer;
+}
+
+.oneFlag {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border: none;
+  width: 24px;
+  height: 24px;
+  border-bottom: 1px solid rgb(243, 244, 245);
+}

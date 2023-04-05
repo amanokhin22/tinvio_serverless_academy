@@ -1,0 +1,594 @@
+//desktop view
+.formFillingWrapper {
+  height: 920px;
+  margin-top: 150px;
+  margin-right: 54px;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  border-radius: 0 0 50px;
+}
+
+.formFillingWrapperRotated {
+  height: 100%;
+  width: 100%;
+  background: rgb(247, 247, 247);
+  z-index: 0;
+  transform: skewY(8deg);
+  transform-origin: left center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 0 50px 0 0;
+}
+
+.formFillingNull {
+  transform: skewY(-8deg);
+}
+
+.featuresCon {
+  max-width: 1192px;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.formFillingInner {
+  flex-direction: row;
+  margin-top: 127px;
+  align-items: flex-start;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  margin-left: 27px;
+  margin-right: -27px;
+}
+
+.formFillingTitleWrapper {
+  position: relative;
+}
+
+.formFillingTitle {
+  max-width: 580px;
+  position: relative;
+  z-index: 3;
+  margin: 0 0 33px;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: left;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(33, 33, 33);
+}
+
+.formFillingMapBox {
+  top: -63px;
+  left: -305px;
+  width: auto;
+  position: absolute;
+}
+
+.mapFlexWrapper {
+  width: 986px;
+  height: 688px;
+  position: relative;
+}
+
+.formFillingFormWrapper {
+  padding: 32px;
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgba(255, 255, 255, 0.3) 0%, rgba(250, 250, 250, 0.3) 100%);
+  border-radius: 36px;
+  position: relative;
+  z-index: 2;
+}
+
+.formFillingForm {
+  padding: 48px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 32px;
+}
+
+.formFillingFormTitle {
+  font-size: 28px;
+  line-height: 34px;
+  max-width: 344px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  color: rgb(33, 33, 33);
+  padding: 0;
+  margin: 0 0 32px;
+  text-align: center;
+}
+
+.FormTitleAccent {
+  color: #ff474d;
+  font-size: 28px;
+  line-height: 34px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.FormInputStyled {
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  color: rgb(92, 92, 92);
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.formInput {
+  width: 344px;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 14px 16px;
+  background: rgb(243, 244, 245);
+  border-radius: 8px;
+  border: 1px solid rgb(243, 244, 245);
+  font-family: Inter, sans-serif;
+  color: rgb(33, 33, 33);
+  outline: none;
+  margin: 8px 0 0;
+  font-weight: 400;
+  overflow: visible;
+}
+
+.phoneInputContainer {
+  width: 344px;
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.phoneInputFlagContainer {
+  height: 49px;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 14px 16px;
+  background: rgb(243, 244, 245);
+  border-radius: 8px;
+  border: 1px solid rgb(243, 244, 245);
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  color: rgb(33, 33, 33);
+  outline: none;
+  margin: 8px 8px 0 0;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.phoneInputFlag {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.countryCode {
+  margin-left: 8px;
+  color: rgb(189, 189, 189);
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.formInputTel {
+  width: 100%;
+  flex: 1 1 0;
+}
+
+.formFillingButton {
+  --btn-width: 56px;
+  font-size: 20px;
+  line-height: 25px;
+  width: 210px;
+  height: 56px;
+  display: block;
+  position: relative;
+  background: rgb(255, 71, 77);
+  border-radius: 18px;
+  padding: 0;
+  margin: 0 auto 14px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  outline: 0;
+  transition: all 0.3s ease 0s;
+  animation: 0s ease 0s 1 normal none running none;
+  -webkit-appearance: button;
+  text-transform: none;
+  overflow: visible;
+}
+
+.formFillingSvg {
+  --btn-width: 56px;
+  left: 49%;
+  top: 50%;
+  position: absolute;
+  width: var(--btn-width);
+  height: var(--btn-width);
+  transform: translate(-50%, -50%) rotate(-90deg);
+  opacity: 0;
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+  font-size: 20px;
+  line-height: 25px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.firstEllipse {
+  stroke-width: 2;
+  stroke: transparent;
+  fill: transparent;
+}
+
+.secondEllipse {
+  stroke-dasharray: 180;
+  stroke-dashoffset: -180;
+  transition: all 0.5s ease 0.3s;
+  stroke-width: 2;
+  stroke: red;
+  fill: transparent;
+}
+
+.formFillingSpam {
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  color: rgb(189, 189, 189);
+}
+
+.formFillingHands {
+  margin-left: 8px;
+}
+
+.formFillingHandsSpan {
+  display: inline-block;
+  overflow: hidden;
+  width: 16px;
+  height: 18px;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  max-width: 100%;
+}
+
+.formFillingHandsImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0;
+  height: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+.formFillingDots {
+  position: absolute;
+  right: -29px;
+  bottom: 29px;
+  z-index: -1;
+}
+
+.formFillingDotsSpan {
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  max-width: 100%;
+}
+
+.formFillingDotsImage {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  margin: auto;
+  display: block;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 1920px) {
+  .featuresCon {
+    max-width: 1312px;
+    padding: 0;
+    position: relative;
+    margin: 0 auto;
+  }
+  .formFillingTitle {
+    font-size: 44px;
+    line-height: 54px;
+    padding: 0;
+  }
+  .formFillingMapBox {
+    top: -75px;
+    left: -235px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .formFillingWrapper {
+    height: 890px;
+  }
+  .formFillingForm {
+    padding: 48px 48px 40px;
+  }
+  .formFillingFormTitle {
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 329px;
+  }
+  .FormInputStyled {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .formInput {
+    width: 329px;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 11px 16px;
+  }
+  .phoneInputContainer {
+    width: 329px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 32px;
+  }
+  .phoneInputFlagContainer {
+    height: 41px;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 11px 16px;
+  }
+  .formFillingButton {
+    --btn-width: 48px;
+    font-size: 16px;
+    line-height: 20px;
+    width: 180px;
+    height: 48px;
+  }
+  .formFillingSvg {
+    --btn-width: 48px;
+    left: 50%;
+    top: 51%;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .formFillingSpam {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .formFillingHandsSpan {
+    width: 14px;
+    height: 17px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .formFillingWrapper {
+    height: 930px;
+    margin-top: 80px;
+    margin-right: 0;
+  }
+  .featuresCon {
+    max-width: 1032px;
+  }
+  .formFillingInner {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .formFillingTitle {
+    max-width: 480px;
+  }
+
+  .formFillingMapBox {
+    top: -52px;
+    left: -390px;
+  }
+  .mapFlexWrapper {
+    width: 934px;
+    height: 654px;
+  }
+  .formFillingForm {
+    padding: 48px 48px 40px;
+  }
+  .formFillingFormTitle {
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 329px;
+  }
+
+  .FormTitleAccent {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .formInput {
+    width: 329px;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 11px 16px;
+  }
+  .phoneInputContainer {
+    width: 329px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .featuresCon {
+    max-width: 1024px;
+    padding: 0 40px;
+  }
+  .formFillingTitle {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .formFillingMapBox {
+    top: -52px;
+    left: -410px;
+    width: 950px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .formFillingWrapper {
+    height: 1350px;
+    margin-top: 80px;
+    margin-right: 0;
+  }
+
+  .featuresCon {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+  .formFillingInner {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 95px;
+  }
+
+  .formFillingTitle {
+    font-size: 32px;
+    line-height: 38px;
+    max-width: 450px;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 33px;
+  }
+  .formFillingMapBox {
+    top: 429px;
+    left: -474px;
+    width: auto;
+  }
+  .mapFlexWrapper {
+    width: 1071px;
+    height: 750px;
+  }
+  .formFillingFormTitle {
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 329px;
+  }
+
+  .FormTitleAccent {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .phoneInputContainer {
+    width: 329px;
+  }
+  .formFillingDots {
+    right: 129px;
+    bottom: 429px;
+  }
+
+}
+
+@media screen and (max-width: 376px) {
+  .formFillingWrapper {
+    height: 1215px;
+  }
+
+  .formFillingTitle {
+    font-size: 28px;
+    line-height: 33px;
+    max-width: 310px;
+  }
+  .formFillingMapBox {
+    top: 520px;
+    left: -310px;
+    width: 620px;
+  }
+  .mapFlexWrapper {
+    width: 710px;
+    height: 496px;
+    display: flex;
+  }
+  .formFillingForm {
+    padding: 40px 24px;
+  }
+  .formFillingFormTitle {
+    font-size: 20px;
+    line-height: 25px;
+    max-width: 295px;
+    text-align: center;
+  }
+
+  .FormTitleAccent {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .formInput {
+    width: 295px;
+  }
+  .phoneInputContainer {
+    margin-bottom: 32px;
+    width: 295px;
+  }
+  .formFillingDots {
+    right: 129px;
+    bottom: 429px;
+  }
+  .phoneInputFlagContainer {
+    height: 41px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 14px 10px;
+  }
+
+}

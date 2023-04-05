@@ -1,0 +1,282 @@
+//desktop view
+.footerStyled {
+  padding: 48px 0 18px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 5;
+}
+
+.footerContainer {
+  max-width: 1192px;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footerFirstLine {
+  flex-direction: row;
+  margin-bottom: 40px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.firstLineHalf {
+  flex-direction: row;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.logoInner {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footerLogo {
+  margin-right: 7.4px;
+  cursor: pointer;
+}
+
+.footerLogoText {
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.firstLineSeparate {
+  display: inline-block;
+  width: 1px;
+  height: 32px;
+  background-color: rgb(196, 196, 196);
+  margin: 0 24px 0 0;
+}
+
+.footerUl {
+  gap: 32px;
+  margin: 0;
+  flex-direction: row;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: black;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footerLi {
+  margin: 0;
+}
+
+.footerLi a:active {
+  color: #ff474d;
+}
+
+.footerLi a:hover {
+  color: #ff474d;
+}
+
+.footerLi a {
+  font-size: 16px;
+  line-height: 27px;
+  color: black;
+  text-decoration: none;
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  transition: color 0.3s ease 0s;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.secondLineHalf {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.footerLinks {
+  flex-direction: row;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.socialDiv {
+  margin-bottom: 0;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.socialDivLdn {
+  cursor: pointer;
+  margin-right: 16px;
+  height: 32px;
+  transition: all 0.2s ease-in-out 0s;
+  background-color: transparent;
+}
+
+.socialDivInst {
+  margin-right: 32px;
+  cursor: pointer;
+  height: 32px;
+  transition: all 0.2s ease-in-out 0s;
+  background-color: transparent;
+}
+
+.footerStores {
+  display: flex;
+}
+
+.footerStoresGoogle {
+  height: 40px;
+  margin-right: 16px;
+  transition: all 0.2s ease-in-out 0s;
+  background-color: transparent;
+}
+
+.footerStoresApple {
+  margin-right: 0;
+  height: 40px;
+  transition: all 0.2s ease-in-out 0s;
+  background-color: transparent;
+}
+
+.footerSecondLine {
+  -webkit-box-pack: start;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.footerSecondLineText {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgb(189, 189, 189);
+  margin: 0 8px 0 0;
+}
+
+.footerSecondLineTextLink {
+  color: rgb(189, 189, 189);
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.footerSecondLineSeparate1 {
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  background-color: rgb(196, 196, 196);
+  margin: 0 8px 0 0;
+}
+
+.footerSecondLineTextIcon {
+  display: flex;
+}
+
+.footerSecondLineSeparate2 {
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  background-color: rgb(196, 196, 196);
+  margin: 0 8px 0 0;
+}
+
+@media screen and (max-width: 1920px) {
+  .footerContainer {
+    max-width: 1312px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .footerContainer {
+    max-width: 1032px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footerContainer {
+    max-width: 1024px;
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footerStyled {
+    padding: 32px 0 16px;
+  }
+  .footerContainer {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+  .footerFirstLine {
+    flex-direction: column;
+    margin-bottom: 25px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  .firstLineHalf {
+    flex-direction: column;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  .firstLineSeparate {
+    display: none;
+  }
+  .footerUl {
+    gap: 56px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .footerFirstLine {
+    margin-bottom: 16px;
+  }
+  .footerLogoText {
+    margin-right: 0;
+  }
+  .firstLineSeparate {
+    display: none;
+  }
+  .footerUl {
+    gap: 16px;
+    margin: 0 0 48px;
+    flex-direction: column;
+    display: flex;
+  }
+  .footerLinks {
+    flex-direction: column;
+    display: flex;
+  }
+  .socialDiv {
+    margin-bottom: 16px;
+  }
+
+  .socialDivInst {
+    margin-right: 0;
+  }
+  .footerStoresApple {
+    margin-right: 0;
+  }
+  .footerSecondLine {
+    flex-direction: column;
+    display: flex;
+  }
+  .footerSecondLineSeparate1 {
+    display: none;
+  }
+}

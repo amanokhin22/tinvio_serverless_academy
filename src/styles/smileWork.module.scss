@@ -1,0 +1,783 @@
+
+.smileWorkWrapper {
+  margin-top: 300px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.smileWorkContainerTitle {
+  max-width: 1024px;
+  padding: 0 40px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.smileWorkTitle {
+  padding: 0 0 40px;
+  margin: 0 0 32px;
+  font-size: 32px;
+  line-height: 38px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(33, 33, 33);
+  text-align: left;
+}
+
+.smileWorkMainBox {
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.smileReworkDots {
+  position: absolute;
+  left: 647px;
+  top: -512px;
+  z-index: -2;
+}
+
+.smileReworkBigGrey {
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgba(218, 218, 218, 0.15) 0%, rgba(250, 250, 250, 0.15) 100%);
+  position: absolute;
+  height: 457.92px;
+  width: 457.92px;
+  left: 311px;
+  top: -293px;
+  border-radius: 42.6248px;
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+
+.smileReworkLeftBigGrey {
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgb(218, 218, 218) 0%, rgb(250, 250, 250) 100%);
+  opacity: 0.1;
+  position: absolute;
+  height: 554.34px;
+  width: 554.34px;
+  left: -536px;
+  top: -288px;
+  border-radius: 51.6px;
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+
+.smileReworkLeftBottomBigGrey {
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgba(218, 218, 218, 0.15) 0%, rgba(250, 250, 250, 0.15) 100%);
+  position: absolute;
+  height: 554.34px;
+  width: 554.34px;
+  left: -514px;
+  top: 44px;
+  border-radius: 51.6px;
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+
+.smileReworkLeftDots {
+  position: absolute;
+  left: -353px;
+  top: 27px;
+  z-index: -2;
+}
+
+.smileReworkInner {
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.smileReworkGreyWrapper1 {
+  margin: 0px -268px 0px 0px;
+  width: 169px;
+  height: 169px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.smileReworkFadeInWrapper {
+  animation-duration: 400ms;
+  animation-delay: 2000ms;
+  animation-name: jKVXCn;
+  animation-fill-mode: forwards;
+}
+
+.smileReworkGrey {
+  width: 121px;
+  height: 118px;
+  border-radius: 15px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgba(246, 245, 245, 0.5) 0%, rgba(250, 250, 250, 0.5) 100%);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.smileReworkGreyInner {
+  width: 90px;
+  height: 90px;
+  border-radius: 12px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgba(218, 218, 218, 0.8) 0%, rgba(250, 250, 250, 0.8) 100%);
+}
+
+.smileReworkImage {
+  transform: translate(-50%, -50%) scale(1);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 65px;
+  height: 67px;
+}
+
+.smileReworkTopFirstLine {
+  margin: 0;
+  flex-direction: column-reverse;
+  display: flex;
+}
+
+.smileReworkGreyWrapper2 {
+  margin: 119px 0 0;
+  width: 169px;
+  height: 169px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.smileReworkGreyWrapper {
+  width: 169px;
+  height: 169px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.smileReworkTopSecondLine {
+  margin: 0px -84px 0px 0;
+  flex-direction: column-reverse;
+  display: flex;
+}
+
+.smileReworkGreyWrapper3 {
+  margin: 267px 0 0;
+  width: 169px;
+  height: 169px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.smileReworkPinkWrapper {
+  width: 462px;
+  height: 462px;
+  margin: 0 2px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  transform: rotate(45deg);
+  position: relative;
+}
+
+.smileReworkPinkBig {
+  width: 427px;
+  height: 427px;
+  border-radius: 24px;
+  position: absolute;
+  background: rgba(251, 36, 43, 0.3);
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  animation: 2.25s cubic-bezier(0.215, 0.61, 0.355, 1) 0s infinite normal none running cMSemc;
+}
+
+.smileReworkPinkSmall {
+  width: 292px;
+  height: 292px;
+  border-radius: 24px;
+  position: absolute;
+  background: rgba(251, 36, 43, 0.4);
+  animation: 2.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite normal none running goeQbV;
+}
+
+.smileReworkRed {
+  width: 292px;
+  height: 292px;
+  border-radius: 24px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.smileReworkBardo {
+  width: 246px;
+  height: 246px;
+  border-radius: 24px;
+  background: rgb(251, 36, 43);
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.smileReworkContent {
+  height: 462px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  transform: rotate(-45deg);
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  width: 340px;
+}
+
+.smileReworkTextWrapper {
+  margin-top: 164px;
+  font-family: Gilroy, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.smileReworkText {
+  font-family: Gilroy, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.smileReworkLine {
+  margin-top: 16px;
+  width: 186px;
+  height: 70px;
+  background: url(../assets/img/line.svg) 0 0% / contain no-repeat;
+}
+
+.smileReworkBotFirstLine {
+  margin: 0 0 0 -84px;
+  flex-direction: column-reverse;
+  display: flex;
+}
+
+.smileReworkBotSecondLine {
+  margin: -12px 0 0;
+  flex-direction: column-reverse;
+  display: flex;
+}
+
+.smileReworkGreyWrapper4 {
+  margin: 0 0 0px -268px;
+  width: 169px;
+  height: 169px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+@media screen and (max-width: 1920px) {
+  .smileWorkContainerTitle {
+    max-width: 1312px;
+    padding: 0;
+  }
+  .smileWorkTitle {
+    font-size: 44px;
+    line-height: 54px;
+  }
+  .smileWorkMainBox {
+    max-width: 1920px;
+  }
+  .smileReworkGreyWrapper1 {
+    margin: 0px -330px 0px 0px;
+    width: 188px;
+    height: 188px;
+  }
+  .smileReworkGrey {
+    width: 135px;
+    height: 131px;
+  }
+
+  .smileReworkGreyInner {
+    width: 100px;
+    height: 100px;
+  }
+  .smileReworkGreyWrapper2 {
+    margin: 99px 0 0;
+    width: 188px;
+    height: 188px;
+  }
+  .smileReworkGreyWrapper {
+    width: 188px;
+    height: 188px;
+  }
+  .smileReworkTopSecondLine {
+    margin: 0px -85px 0px 119px;
+  }
+  .smileReworkGreyWrapper3 {
+    margin: 267px 0 0;
+    width: 188px;
+    height: 188px;
+  }
+  .smileReworkTextWrapper {
+    margin-top: 174px;
+  }
+  .smileReworkText {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .smileReworkLine {
+    margin-top: 17px;
+    width: 197px;
+    height: 73px;
+  }
+  .smileReworkBotFirstLine {
+    margin: 0 119px 0 -85px;
+  }
+
+  .smileReworkBotSecondLine {
+    margin: 0;
+  }
+
+  .smileReworkGreyWrapper4 {
+    margin: 0 0 0 -330px;
+    width: 188px;
+    height: 188px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .smileWorkContainerTitle {
+    max-width: 1192px;
+  }
+  .smileWorkTitle {
+    font-size: 36px;
+    line-height: 44px;
+    padding: 0 0 40px;
+  }
+  .smileWorkMainBox {
+    max-width: 1440px;
+  }
+  .smileReworkGreyWrapper1 {
+    margin: 0px -269px 0px 0px;
+  }
+
+  .smileReworkGrey {
+    width: 121px;
+    height: 118px;
+    border-radius: 15px;
+  }
+
+  .smileReworkGreyInner {
+    width: 90px;
+    height: 90px;
+    border-radius: 12px;
+  }
+
+  .smileReworkImage {
+    transform: translate(-50%, -50%) scale(0.8936);
+  }
+  .smileReworkTopFirstLine {
+    margin: 0 32px 0 0;
+  }
+
+  .smileReworkGreyWrapper2 {
+    margin: 119px 0 0;
+    width: 169px;
+    height: 169px;
+  }
+
+  .smileReworkGreyWrapper {
+    width: 169px;
+    height: 169px;
+  }
+
+  .smileReworkTopSecondLine {
+    margin: 0px -9px 0px 0;
+    flex-direction: column-reverse;
+    display: flex;
+  }
+
+  .smileReworkGreyWrapper3 {
+    margin: 267px 0 0;
+    width: 169px;
+    height: 169px;
+  }
+  .smileReworkBotFirstLine {
+    margin: 0 0 0 -9px;
+  }
+  .smileReworkBotSecondLine {
+    margin: 0 0 0 32px;
+  }
+
+  .smileReworkGreyWrapper4 {
+    margin: 0 0 0px -269px;
+    width: 169px;
+    height: 169px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .smileWorkContainerTitle {
+    max-width: 1032px;
+  }
+  .smileWorkTitle {
+    margin: 0 0 32px;
+  }
+  .smileWorkMainBox {
+    max-width: 1280px;
+  }
+  .smileReworkGreyWrapper1 {
+    margin: 0px -268px 0px 0px;
+  }
+
+  .smileReworkTopFirstLine {
+    margin: 0 16px 0 0;
+  }
+
+  .smileReworkTopSecondLine {
+    margin: 0px -69px 0px 0;
+  }
+
+  .smileReworkBotFirstLine {
+    margin: 0 0 0 -69px;
+  }
+  .smileReworkBotSecondLine {
+    margin: 0 0 0 16px;
+  }
+
+  .smileReworkGreyWrapper4 {
+    margin: 0 0 0px -268px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .smileWorkContainerTitle {
+    max-width: 1024px;
+  }
+  .smileWorkMainBox {
+    max-width: 1024px;
+  }
+  .smileReworkText {
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .smileWorkWrapper {
+    margin-top: 140px;
+  }
+  .smileWorkContainerTitle {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+  .smileWorkTitle {
+    padding: 0;
+    text-align: center;
+  }
+  .smileWorkMainBox {
+    max-width: 100%;
+    margin: 0;
+    position: relative;
+  }
+  .smileReworkInner {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  .smileReworkGreyWrapper1 {
+    margin: 0;
+    width: 156px;
+    height: 156px;
+  }
+
+  .smileReworkGrey {
+    width: 111px;
+    height: 108px;
+  }
+
+  .smileReworkGreyInner {
+    width: 83px;
+    height: 83px;
+  }
+  .smileReworkTopFirstLine {
+    margin: -42px 0 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .smileReworkGreyWrapper2 {
+    margin: 0 143px 0 0;
+    width: 156px;
+    height: 156px;
+  }
+
+  .smileReworkGreyWrapper {
+    width: 156px;
+    height: 156px;
+  }
+
+  .smileReworkTopSecondLine {
+    margin: -12px 0px 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .smileReworkGreyWrapper3 {
+    margin: 0 428px 0 0;
+    width: 156px;
+    height: 156px;
+  }
+  .smileReworkPinkWrapper {
+    width: 491px;
+    height: 491px;
+    margin: -226px 0 0;
+  }
+
+  .smileReworkPinkBig {
+    width: 447px;
+    height: 447px;
+    border-radius: 25px;
+  }
+
+  .smileReworkPinkSmall {
+    width: 308px;
+    height: 308px;
+    border-radius: 25px;
+  }
+
+  .smileReworkRed {
+    width: 308px;
+    height: 308px;
+    border-radius: 25px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  .smileReworkBardo {
+    width: 259px;
+    height: 259px;
+    border-radius: 25px;
+  }
+
+  .smileReworkContent {
+    height: 491px;
+  }
+
+  .smileReworkTextWrapper {
+    margin-top: 173px;
+  }
+
+  .smileReworkText {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .smileReworkLine {
+    margin-top: 17px;
+    width: 196px;
+    height: 73px;
+  }
+  .smileReworkBotFirstLine {
+    margin: -214px 0 0;
+    flex-direction: row;
+    display: flex;
+  }
+  .smileReworkBotSecondLine {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .smileReworkGreyWrapper4 {
+    margin: -42px 0 0;
+    width: 156px;
+    height: 156px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .smileWorkWrapper {
+    margin-top: 120px;
+  }
+
+  .smileWorkTitle {
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .smileWorkMainBox {
+    max-width: 375px;
+  }
+
+  .smileReworkGreyWrapper1 {
+    margin: 0;
+    width: 107px;
+    height: 107px;
+  }
+
+  .smileReworkGrey {
+    width: 76px;
+    height: 74px;
+    border-radius: 8px;
+  }
+
+  .smileReworkGreyInner {
+    width: 57px;
+    height: 57px;
+    border-radius: 5px;
+  }
+  .smileReworkImage {
+    transform: translate(-50%, -50%) scale(0.5638);
+  }
+  .smileReworkTopFirstLine {
+    margin: -46px 0px 0px;
+    display: flex;
+  }
+
+  .smileReworkGreyWrapper2 {
+    margin: 0 19px 0 0;
+    width: 107px;
+    height: 107px;
+  }
+
+  .smileReworkGreyWrapper {
+    width: 107px;
+    height: 107px;
+  }
+
+  .smileReworkTopSecondLine {
+    margin: -39px 0px 0px;
+    display: flex;
+  }
+
+  .smileReworkGreyWrapper3 {
+    margin: 0 151px 0 0;
+    width: 107px;
+    height: 107px;
+    display: flex;
+  }
+  .smileReworkPinkWrapper {
+    width: 344px;
+    height: 344px;
+    margin: -96px 0 0;
+  }
+
+  .smileReworkPinkBig {
+    width: 343px;
+    height: 343px;
+    border-radius: 17px;
+  }
+
+  .smileReworkPinkSmall {
+    width: 215px;
+    height: 215px;
+    border-radius: 17px;
+  }
+
+  .smileReworkRed {
+    width: 215px;
+    height: 215px;
+    border-radius: 17px;
+  }
+
+  .smileReworkBardo {
+    width: 182px;
+    height: 182px;
+    border-radius: 17px;
+  }
+
+  .smileReworkContent {
+    width: 340px;
+    height: 344px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-45deg);
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .smileReworkTextWrapper {
+    margin-top: 122px;
+  }
+
+  .smileReworkText {
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 0;
+  }
+
+  .smileReworkLine {
+    margin-top: 13px;
+    width: 137px;
+    height: 51px;
+  }
+  .smileReworkBotFirstLine {
+    margin: -96px 0 0;
+    display: flex;
+  }
+  .smileReworkBotSecondLine {
+    display: flex;
+    margin: -39px 0px 0px;
+  }
+
+  .smileReworkGreyWrapper4 {
+    margin: -46px 0px 0px;
+    width: 107px;
+    height: 107px;
+  }
+}
