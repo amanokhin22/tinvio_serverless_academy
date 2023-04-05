@@ -82,7 +82,7 @@ export const MoreMoney = () => {
                         }
                     </div>
                     <ul className={styles.moreMoneyList}>
-                        {moreMoneyChoice.list.map((text, index) => (
+                        {moreMoneyChoice.list.map((text) => (
                             <li className={styles.moreMoneyItem}>
                                 {text}
                             </li>

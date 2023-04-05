@@ -20,7 +20,7 @@ export const VideoModal: FC<VideoModalTypes> = ({onClose}) => {
                 <div className={styles.youtubeContent}>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/XqZsoesa55w?autoplay=1"
                             title="YouTube video player"
-                            frameBorder="0"
+                            //frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowFullScreen></iframe>
                 </div>
