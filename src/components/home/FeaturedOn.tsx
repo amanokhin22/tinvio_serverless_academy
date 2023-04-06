@@ -1,11 +1,11 @@
-import styles from "../styles/featuredOn.module.scss";
+import styles from "../../styles/featuredOn.module.scss";
 
-import featuredOnAriaHidden from "../assets/img/featuredOnAriaHidden.svg";
-import featuredOnDots from "../assets/img/featuredOnDots.png";
-import techCrunch from "../assets/img/techCrunch.svg";
-import techInAsia from "../assets/img/techInAsia.svg";
-import pymnts from "../assets/img/pymnts.svg";
-import ventureBeat from "../assets/img/ventureBeat.svg";
+import featuredOnAriaHidden from "../../assets/img/featuredOnAriaHidden.svg";
+import featuredOnDots from "../../assets/img/featuredOnDots.png";
+import techCrunch from "../../assets/img/techCrunch.svg";
+import techInAsia from "../../assets/img/techInAsia.svg";
+import pymnts from "../../assets/img/pymnts.svg";
+import ventureBeat from "../../assets/img/ventureBeat.svg";
 
 export const FeaturedOn = () => {
     return (

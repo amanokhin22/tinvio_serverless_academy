@@ -1,9 +1,9 @@
-import styles from "../styles/formFilling.module.scss";
+import styles from "../../styles/formFilling.module.scss";
 
-import bigMap from "../assets/img/bigMap.png";
-import flagcdn from "../assets/img/flagcdn.png";
-import hands from "../assets/img/hands.svg";
-import formFillingDots from "../assets/img/formFillingDots.png";
+import bigMap from "../../assets/img/bigMap.png";
+import flagcdn from "../../assets/img/flagcdn.png";
+import hands from "../../assets/img/hands.svg";
+import formFillingDots from "../../assets/img/formFillingDots.png";
 
 export const FormFilling = () => {
     return (

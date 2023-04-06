@@ -1,17 +1,17 @@
-import styles from "../styles/moreMoney.module.scss";
+import styles from "../../styles/moreMoney.module.scss";
 
-import leftMock1 from "../assets/img/leftMock1.png";
-import rightMock1 from "../assets/img/rightMock1.png";
-import leftMock2 from "../assets/img/leftMock2.png";
-import rightMock2 from "../assets/img/rightMock2.png";
-import leftMock3 from "../assets/img/leftMock3.png";
-import rightMock3 from "../assets/img/rightMock3.png";
-import ariaHidden from "../assets/img/ariaHidden.svg";
-import moreMoneyStars from "../assets/img/moreMoneyStars.svg";
-import ariaHiddenForDots from "../assets/img/ariaHiddenForDots.svg";
-import moreMoneyDotsInSquare from "../assets/img/moreMoneyDotsInSquare.png";
-import ariaHiddenDotsRight from "../assets/img/ariaHiddenDotsRight.svg";
-import mobRightDots from "../assets/img/mobRightDots.png";
+import leftMock1 from "../../assets/img/leftMock1.png";
+import rightMock1 from "../../assets/img/rightMock1.png";
+import leftMock2 from "../../assets/img/leftMock2.png";
+import rightMock2 from "../../assets/img/rightMock2.png";
+import leftMock3 from "../../assets/img/leftMock3.png";
+import rightMock3 from "../../assets/img/rightMock3.png";
+import ariaHidden from "../../assets/img/ariaHidden.svg";
+import moreMoneyStars from "../../assets/img/moreMoneyStars.svg";
+import ariaHiddenForDots from "../../assets/img/ariaHiddenForDots.svg";
+import moreMoneyDotsInSquare from "../../assets/img/moreMoneyDotsInSquare.png";
+import ariaHiddenDotsRight from "../../assets/img/ariaHiddenDotsRight.svg";
+import mobRightDots from "../../assets/img/mobRightDots.png";
 
 import {useState} from "react";
 
@@ -89,7 +89,7 @@ export const MoreMoney = () => {
                         ))}
                     </ul>
                     <div>
-                        <a className={styles.moreMoneyBottomButton} href="/features">More Features</a>
+                        <a className={styles.moreMoneyBottomButton} href="/src/components/features/Features">More Features</a>
                     </div>
                 </div>
             </div>

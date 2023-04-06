@@ -1,8 +1,8 @@
 import {Link} from "react-router-dom";
 import {useEffect, useState} from "react";
 
-import {LanguagePicker} from "./LanguagePicker";
-import {SocialMedia} from "./SocialMedia";
+import {LanguagePicker} from "./home/LanguagePicker";
+import {SocialMedia} from "./home/SocialMedia";
 
 import styles from "../styles/home.module.scss";
 import littleOctopus from "../assets/img/littleOctopus.svg";
@@ -55,10 +55,10 @@ export const Header = () => {
                         </div>
                         <ul className={burgerOpened ? styles.headerNav + ' ' + styles.headerNavShow : styles.headerNav}>
                             <li className={styles.itemNav}>
-                                <Link className={styles.itemLink} to={'/home'}> Home</Link>
+                                <Link className={styles.itemLink} to={'/'}> Home</Link>
                             </li>
                             <li className={styles.itemNav}>
-                                <Link className={styles.itemLink} to={'/features'}> Features</Link>
+                                <Link className={styles.itemLink} to={'/Features'}> Features</Link>
                             </li>
                             <li className={styles.itemNav}>
                                 <Link className={styles.itemLink} to={'/company'}>Company</Link>

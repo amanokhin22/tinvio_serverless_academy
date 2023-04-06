@@ -1,32 +1,32 @@
-import {Header} from "./Header";
-import {VideoModal} from "./VideoModal";
-
-import styles from "../styles/home.module.scss";
-
-import previewApp from "../assets/img/previewApp.png";
-import phone2x from "../assets/img/phone2x.png";
-import upperStars from "../assets/img/upperStars.svg";
-import dotsUnderText from "../assets/img/dots-under-text.png";
-import play from "../assets/img/play.svg";
-import rightBottomDots from "../assets/img/rightBottomDots.png";
-import chatIcon from "../assets/img/chatIcon.png";
-import worksStars from "../assets/img/worksStars.svg";
-import middleIcon from "../assets/img/middleIcon.svg";
-import bottomStars from "../assets/img/bottomStars.svg";
-import wallet from "../assets/img/wallet.png";
-import paymentsStars from "../assets/img/paymentsStars.svg";
-import twoStars from "../assets/img/twoStars.svg";
-import leftBottomDots from "../assets/img/leftBottomDots.png";
-import upperDirection from "../assets/img/upperDirection.svg";
-import bottomDirection from "../assets/img/bottomDirection.svg";
 import {useState} from "react";
+
+import {Header} from "../Header";
+import {VideoModal} from "./VideoModal";
 import {MoreMoney} from "./MoreMoney";
 import {FeaturedOn} from "./FeaturedOn";
 import {WhyChoose} from "./WhyChoose";
 import {SmileWork} from "./SmileWork";
 import {FormFilling} from "./FormFilling";
-import {Footer} from "./Footer";
+import {Footer} from "../Footer";
 
+import styles from "../../styles/home.module.scss";
+
+import previewApp from "../../assets/img/previewApp.png";
+import phone2x from "../../assets/img/phone2x.png";
+import upperStars from "../../assets/img/upperStars.svg";
+import dotsUnderText from "../../assets/img/dots-under-text.png";
+import play from "../../assets/img/play.svg";
+import rightBottomDots from "../../assets/img/rightBottomDots.png";
+import chatIcon from "../../assets/img/chatIcon.png";
+import worksStars from "../../assets/img/worksStars.svg";
+import middleIcon from "../../assets/img/middleIcon.svg";
+import bottomStars from "../../assets/img/bottomStars.svg";
+import wallet from "../../assets/img/wallet.png";
+import paymentsStars from "../../assets/img/paymentsStars.svg";
+import twoStars from "../../assets/img/twoStars.svg";
+import leftBottomDots from "../../assets/img/leftBottomDots.png";
+import upperDirection from "../../assets/img/upperDirection.svg";
+import bottomDirection from "../../assets/img/bottomDirection.svg";
 const Home = () => {
     const [modalActive, setModalActive] = useState(false)
 

@@ -1,11 +1,11 @@
 import React, {memo, useEffect, useRef, useState} from "react";
-import styles from "../styles/languagesPicker.module.scss";
+import styles from "../../styles/languagesPicker.module.scss";
 
-import arrowWrapper from "../assets/img/arrowWrapper.svg";
-import gbflag from "../assets/img/gbflag.svg";
-import idflag from "../assets/img/idflag.svg";
-import thflag from "../assets/img/thflag.svg";
-import viflag from "../assets/img/viflag.svg";
+import arrowWrapper from "../../assets/img/arrowWrapper.svg";
+import gbflag from "../../assets/img/gbflag.svg";
+import idflag from "../../assets/img/idflag.svg";
+import thflag from "../../assets/img/thflag.svg";
+import viflag from "../../assets/img/viflag.svg";
 
 type LanguageItem = {
     name: string;

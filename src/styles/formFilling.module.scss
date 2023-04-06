@@ -202,7 +202,7 @@
   background: rgb(255, 71, 77);
   border-radius: 18px;
   padding: 0;
-  margin: 0 auto 14px;
+  margin: 0 auto;
   font-family: Gilroy, sans-serif;
   font-weight: 700;
   color: rgb(255, 255, 255);
@@ -590,5 +590,12 @@
     line-height: 19px;
     padding: 14px 10px;
   }
+  .formFillingSpam {
+    font-size: 14px;
+    line-height: 17px;
+  }
 
+  .formFillingHands {
+    margin-left: 8px;
+  }
 }

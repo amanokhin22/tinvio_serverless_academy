@@ -3,24 +3,24 @@ import React, {useRef} from "react";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Swiper as SwiperType, Navigation, Pagination, Scrollbar, A11y} from "swiper";
 
-import styles from "../styles/whyChoose.module.scss";
+import styles from "../../styles/whyChoose.module.scss";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-import flexibleDotsRight from "../assets/img/flexibleDotsRight.png";
-import flexibleDotsLeft from "../assets/img/flexibleDotsLeft.svg";
-import flexibleDotsUpLeft from "../assets/img/flexibleDotsUpLeft.svg";
-import spoon from "../assets/slides/spoon.png";
-import cup from "../assets/slides/cup.png";
-import milk from "../assets/slides/milk.png";
-import eggs from "../assets/slides/eggs.png";
-import sejadah from "../assets/slides/sejadah.png";
-import moonleaf from "../assets/slides/moonleaf.png";
-import paithang from "../assets/slides/paithang.png";
-import baker from "../assets/slides/baker.png";
-import quotes from "../assets/slides/quotes.svg";
+import flexibleDotsRight from "../../assets/img/flexibleDotsRight.png";
+import flexibleDotsLeft from "../../assets/img/flexibleDotsLeft.svg";
+import flexibleDotsUpLeft from "../../assets/img/flexibleDotsUpLeft.svg";
+import spoon from "../../assets/slides/spoon.png";
+import cup from "../../assets/slides/cup.png";
+import milk from "../../assets/slides/milk.png";
+import eggs from "../../assets/slides/eggs.png";
+import sejadah from "../../assets/slides/sejadah.png";
+import moonleaf from "../../assets/slides/moonleaf.png";
+import paithang from "../../assets/slides/paithang.png";
+import baker from "../../assets/slides/baker.png";
+import quotes from "../../assets/slides/quotes.svg";
 
 export interface slidesItems {
     text: string;

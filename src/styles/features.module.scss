@@ -1,0 +1,556 @@
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  background-color: #fff;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  display: block;
+}
+
+.main {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.preview {
+  overflow: hidden;
+}
+
+.previewContainer {
+  max-width: 1192px;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.previewInfo {
+  padding: 144px 0 180px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.previewTitle {
+  font-size: 48px;
+  line-height: 59px;
+  margin: 0 0 16px;
+  max-width: 600px;
+  text-align: center;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  color: black;
+  position: relative;
+  padding: 0;
+}
+
+.previewDec1 {
+  transform: scale(1);
+  opacity: 1;
+  top: -15px;
+  left: -7px;
+  position: absolute;
+}
+
+.previewDec2 {
+  transform: scale(1);
+  opacity: 1;
+  right: -40px;
+  bottom: -5px;
+  position: absolute;
+  z-index: -1;
+}
+
+.previewText {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 32px;
+  max-width: 400px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #5c5c5c;
+}
+
+.previewButton {
+  margin-bottom: 66px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 700;
+  width: 188px;
+  height: 48px;
+  color: white;
+  text-align: center;
+  padding: 14px 0;
+  border: none;
+  border-radius: 16px;
+  background-color: #ff474d;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+}
+
+.previewButton:hover {
+  background-color: #ff474dcc;
+}
+
+.previewImage {
+  border-radius: 48px;
+  height: auto;
+  padding-bottom: 0;
+  position: relative;
+  width: 100%;
+  background-color: rgb(230, 232, 231);
+}
+
+.previewImage::before {
+  left: -400px;
+  content: "";
+  position: absolute;
+  width: 569px;
+  height: 569px;
+  top: -97px;
+  background: radial-gradient(95.51% 95.51% at 50% 50%, #dadada26 0%, #fafafa26 100%);;
+  border-radius: 53px;
+  transform: rotate(-45deg);
+}
+
+.previewImageMan {
+  border-radius: 48px;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0s;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.previewAppImg {
+  left: 29px;
+  top: 25px;
+  width: 362px;
+  height: auto;
+  position: absolute;
+  right: -13%;
+  bottom: -33%;
+  z-index: 1;
+  border-radius: 0;
+  opacity: 0;
+  transform: scale(1);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) 1.2s;
+  animation: 0.3s ease-in 1.15s 1 normal forwards running appImgAnim;
+}
+
+.previewRequestImg {
+  top: 85px;
+  right: 60px;
+  width: 264px;
+  height: auto;
+  position: absolute;
+  opacity: 0;
+  animation: 0.3s ease-in 0.6s 1 normal forwards running appImgAnim;
+}
+
+@keyframes appImgAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.previewLeftLine {
+  top: 139px;
+  left: 278px;
+  display: block;
+  position: absolute;
+  width: 722px;
+  height: 316px;
+  fill: none;
+}
+
+.previewRightLine {
+  top: 153px;
+  right: 200px;
+  width: 110px;
+  height: 68px;
+  position: absolute;
+}
+
+.previewImgDec3 {
+  height: inherit;
+  width: inherit;
+}
+
+.previewImgDec3::before {
+  left: 0;
+  bottom: -60px;
+  content: url('../assets/img/dots-b.png');
+  position: absolute;
+  z-index: -1;
+}
+
+.previewImgDec3::after {
+  right: -120px;
+  content: url('../assets/img/dots-t.png');
+  position: absolute;
+  top: -75px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1920px) {
+  .previewContainer {
+    max-width: 1312px;
+  }
+  .previewTitle {
+    max-width: 710px;
+    font-size: 47px;
+  }
+  .previewDec1 {
+    top: -15px;
+    left: -7px;
+  }
+  .previewDec2 {
+    right: -30px;
+    bottom: -5px;
+  }
+  .previewText {
+    font-size: 20px;
+    line-height: 25px;
+    max-width: 420px;
+  }
+  .previewButton {
+    font-size: 20px;
+    line-height: 25px;
+    width: 219px;
+    height: 56px;
+    padding: 16px 0;
+    border-radius: 18px;
+  }
+  .previewRequestImg {
+    top: 114px;
+    right: 81px;
+  }
+  .previewLeftLine {
+    top: 178px;
+    left: 337px;
+  }
+  .previewRightLine {
+    top: 182px;
+    right: 221px;
+  }
+  .previewImgDec3::after {
+    right: -40px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .previewContainer {
+    max-width: 1192px;
+  }
+  .previewInfo {
+    padding: 144px 0 180px;
+  }
+  .previewTitle {
+    font-size: 48px;
+    line-height: 59px;
+    margin: 0 0 16px;
+  }
+  .previewDec1 {
+    top: -15px;
+    left: 25px;
+  }
+
+  .previewDec2 {
+    right: -10px;
+    bottom: -5px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .previewText {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 32px;
+    max-width: 400px;
+  }
+
+  .previewButton {
+    margin-bottom: 66px;
+    font-size: 16px;
+    line-height: 20px;
+    width: 188px;
+    height: 48px;
+    padding: 14px 0;
+    border: none;
+    border-radius: 16px;
+  }
+  .previewButton:hover {
+    background-color: #ff474dcc;
+  }
+
+  .previewImage {
+    border-radius: 48px;
+    height: auto;
+    padding-bottom: 0;
+    position: relative;
+    width: 100%;
+  }
+
+  .previewRequestImg {
+    top: 85px;
+    right: 60px;
+    width: 264px;
+  }
+  .previewLeftLine {
+    top: 139px;
+    left: 278px;
+
+  }
+  .previewRightLine {
+    top: 153px;
+    right: 200px;
+    width: 110px;
+    height: 68px;
+  }
+
+  .previewImgDec3::before {
+    left: 0;
+    bottom: -60px;
+  }
+  .previewImgDec3::after {
+    right: -120px;
+    top: -75px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .previewContainer {
+    max-width: 1032px;
+  }
+
+  .previewTitle {
+    max-width: 600px;
+  }
+  .previewDec1 {
+    top: -20px;
+    left: -10px;
+  }
+
+  .previewDec2 {
+    right: -30px;
+    bottom: -5px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .previewAppImg {
+    left: 15px;
+    top: 8px;
+  }
+  .previewRequestImg {
+    top: 87px;
+    right: 36px;
+  }
+  .previewLeftLine {
+    top: 132px;
+    left: 205px;
+
+  }
+  .previewRightLine {
+    top: 155px;
+    right: 175px;
+    width: 110px;
+    height: 68px;
+  }
+
+  .previewImgDec3::before {
+    left: -100px;
+    bottom: -60px;
+  }
+  .previewImgDec3::after {
+    right: -180px;
+    top: -75px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .previewContainer {
+    max-width: 1024px;
+    padding: 0 40px;
+  }
+
+  .previewTitle {
+    font-size: 43px;
+    line-height: 52px;
+    max-width: 535px;
+  }
+  .previewText {
+    max-width: 350px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .previewImageMan {
+    border-radius: 44px;
+  }
+  .previewDec1 {
+    top: -20px;
+    left: -10px;
+  }
+
+  .previewDec2 {
+    right: -30px;
+    bottom: -5px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .previewRequestImg {
+    top: 52px;
+    right: 19px;
+    width: 264px;
+  }
+  .previewLeftLine {
+    top: 78px;
+    left: 161px;
+  }
+  .previewRightLine {
+    top: 115px;
+    right: 160px;
+  }
+  .previewImgDec3::before {
+    left: -100px;
+    bottom: -140px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .previewContainer {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .previewTitle {
+    font-size: 34px;
+    line-height: 42px;
+    max-width: 430px;
+  }
+  .previewText {
+    max-width: 350px;
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .previewImage::before {
+    left: -360px;
+  }
+  .previewImageMan {
+    width: 741px;
+    height: 510px;
+  }
+  .previewAppImg {
+    width: 50.2%;
+    height: auto;
+    left: 1%;
+    top: 1%;
+  }
+  .previewRequestImg {
+    width: 31.4%;
+    top: 12.6%;
+    right: -3%;
+  }
+
+  .previewLeftLine {
+    display: none;
+  }
+  .previewRightLine {
+    top: 23.2%;
+    right: 12%;
+    width: 15%;
+  }
+  .previewImgDec3::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .previewInfo {
+    padding: 144px 0 48%;
+  }
+
+  .previewTitle {
+    font-size: 24px;
+    line-height: 39px;
+    max-width: 343px;
+    margin: 0 0 16px;
+  }
+  .previewDec1 {
+    width: 51px;
+    top: -10px;
+    left: -5px;
+  }
+  .previewText {
+    max-width: 345px;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 0 31px;
+  }
+  .previewButton {
+    margin-bottom: 48px;
+  }
+  .previewImage {
+    border-radius: 44px;
+  }
+
+  .previewImage::before {
+    left: -360px;
+  }
+  .previewImageMan {
+    width: 350px;
+    height: 339px;
+  }
+  .previewAppImg {
+    position: absolute;
+    right: -13%;
+    bottom: -33%;
+    left: 42%;
+    top: 205px;
+    width: 72.6%;
+    height: auto;
+  }
+  .previewRequestImg {
+    position: absolute;
+    top: 3.3%;
+    right: -9%;
+    width: 52.5%;
+    height: auto;
+  }
+
+  .previewLeftLine {
+    display: none;
+  }
+  .previewRightLine {
+    top: 16.8%;
+    right: 15%;
+    width: 22.3%;
+    height: auto;
+  }
+  .previewImgDec3::after {
+    display: none;
+  }
+}

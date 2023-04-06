@@ -1,11 +1,11 @@
 import {Link} from "react-router-dom";
 
-import styles from "../styles/socialMedia.module.scss";
+import styles from "../../styles/socialMedia.module.scss";
 
-import linkedin from "../assets/img/linkedin.svg";
-import instagram from "../assets/img/instagram.svg";
-import googlePlay from "../assets/img/googlePlay.png";
-import appStore from "../assets/img/appStore.png";
+import linkedin from "../../assets/img/linkedin.svg";
+import instagram from "../../assets/img/instagram.svg";
+import googlePlay from "../../assets/img/googlePlay.png";
+import appStore from "../../assets/img/appStore.png";
 
 export const SocialMedia = () => {
     return (

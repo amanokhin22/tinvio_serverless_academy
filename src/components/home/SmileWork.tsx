@@ -1,17 +1,17 @@
-import styles from "../styles/smileWork.module.scss";
+import styles from "../../styles/smileWork.module.scss";
 
-import smileReworkRightDots from "../assets/img/smileReworkRightDots.png";
-import smileReworkLeftDots from "../assets/img/smileReworkLeftDots.png";
-import petShop from "../assets/img/petShop.png";
-import nex from "../assets/img/nex.svg";
-import bbs from "../assets/img/bbs.png";
-import nayla from "../assets/img/nayla.svg";
-import tokoKita from "../assets/img/tokoKita.svg";
-import burgerLobster from "../assets/img/burgerLobster.png";
-import groupOfCompanies from "../assets/img/groupOfCompanies.svg";
-import esTeh from "../assets/img/esTeh.svg";
-import gongCha from "../assets/img/gongCha.png";
-import khoPaKa from "../assets/img/khoPaKa.svg";
+import smileReworkRightDots from "../../assets/img/smileReworkRightDots.png";
+import smileReworkLeftDots from "../../assets/img/smileReworkLeftDots.png";
+import petShop from "../../assets/img/petShop.png";
+import nex from "../../assets/img/nex.svg";
+import bbs from "../../assets/img/bbs.png";
+import nayla from "../../assets/img/nayla.svg";
+import tokoKita from "../../assets/img/tokoKita.svg";
+import burgerLobster from "../../assets/img/burgerLobster.png";
+import groupOfCompanies from "../../assets/img/groupOfCompanies.svg";
+import esTeh from "../../assets/img/esTeh.svg";
+import gongCha from "../../assets/img/gongCha.png";
+import khoPaKa from "../../assets/img/khoPaKa.svg";
 
 export const SmileWork = () => {
     return (
