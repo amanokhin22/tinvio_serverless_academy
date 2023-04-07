@@ -11,7 +11,14 @@ body {
   box-sizing: border-box;
   display: block;
 }
-
+* {
+  box-sizing: border-box;
+}
+.global {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
 .main {
   position: relative;
   z-index: 2;
@@ -211,6 +218,7 @@ body {
   top: -75px;
   z-index: -1;
 }
+
 
 @media screen and (max-width: 1920px) {
   .previewContainer {

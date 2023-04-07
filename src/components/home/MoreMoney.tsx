@@ -71,9 +71,9 @@ export const MoreMoney = () => {
                     </h3>
                     <div className={styles.moreMoneyButtonsWrapper}>
                         {
-                            data.map(item => {
+                            data.map((item, index) => {
                                 return (
-                                    <button onClick={() => setMoreMoneyChoice(item)}
+                                    <button key={index} onClick={() => setMoreMoneyChoice(item)}
                                             className={item === moreMoneyChoice ? styles.moreMoneyButton107Border : styles.moreMoneyButton107}>
                                         {item.btnText}
                                     </button>
@@ -82,14 +82,15 @@ export const MoreMoney = () => {
                         }
                     </div>
                     <ul className={styles.moreMoneyList}>
-                        {moreMoneyChoice.list.map((text) => (
-                            <li className={styles.moreMoneyItem}>
+                        {moreMoneyChoice.list.map((text, index) => (
+                            <li key={index} className={styles.moreMoneyItem}>
                                 {text}
                             </li>
                         ))}
                     </ul>
                     <div>
-                        <a className={styles.moreMoneyBottomButton} href="/src/components/features/Features">More Features</a>
+                        <a className={styles.moreMoneyBottomButton} href="/src/components/features/Features">More
+                            Features</a>
                     </div>
                 </div>
             </div>

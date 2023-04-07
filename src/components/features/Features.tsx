@@ -3,6 +3,7 @@ import {useState} from "react";
 import {Header} from "../Header";
 import {Footer} from "../Footer";
 import {ModalForm} from "./ModalForm";
+import {SuperCharge} from "./SuperCharge";
 
 import styles from "../../styles/features.module.scss";
 import dec1 from "../../assets/img/dec1.svg";
@@ -20,6 +21,7 @@ import leftLine from "../../assets/img/leftLine.svg";
 
 export const Features = () => {
     const [isOpen, setIsOpen] = useState(false);
+
     const handleOpenModal = () => {
         setIsOpen(true);
     }
@@ -72,7 +74,7 @@ export const Features = () => {
                         </div>
                     </div>
                 </section>
-                <section></section>
+                <SuperCharge/>
                 <section></section>
                 <section></section>
                 <section></section>

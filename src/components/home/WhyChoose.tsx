@@ -134,8 +134,8 @@ export const WhyChoose = () => {
                     >
                         <>
                             {
-                                slides.map((slide) =>
-                                    <SwiperSlide>
+                                slides.map((slide, index) =>
+                                    <SwiperSlide key={index}>
                                         <div className={styles.imageWrapper}>
                                             <div className={styles.imageContainer}>
                                                 <div className={styles.leftWrapperImage}>

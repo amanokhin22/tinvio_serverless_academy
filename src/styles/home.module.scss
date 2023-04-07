@@ -1110,6 +1110,21 @@ body {
   .headerNav {
     margin: 0;
   }
+  .itemNav {
+    list-style-type: none;
+    color: black;
+    margin-right: 72px;
+  }
+
+  .itemLink {
+    text-decoration: none;
+    color: black;
+    font-family: Gilroy, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    transition: color 0.3s ease 0s;
+  }
   .itemLink:active {
     color: #ff474d;
   }
