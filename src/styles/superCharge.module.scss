@@ -1,13 +1,57 @@
 //start section SuperCharge
+@media screen and (max-width: 1920px) {
+  .superChargeContainer {
+    max-width: 1312px;
+  }
+  .superChargeTitle {
+    font-size: 48px;
+    line-height: 59px;
+  }
+  .superChargeFullCon {
+    margin-right: 234px;
+  }
+  .superChargeFullConDots {
+    right: 660px;
+  }
+  .superChargeFullConDec1::before {
+    left: -10px;
+  }
+  .superChargeFullConDec1::after {
+    left: 380px;
+  }
+  .superChargeFlexConInfoContainer {
+    max-width: 1312px;
+  }
+  .flexConGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 237px);
+    padding-top: 87px;
+  }
+  .superChargeBottomTitle {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .superChargeBottomText {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .superChargeBottomMobileImage {
+    display: none;
+  }
+}
+
+
 .sectionSuperCharge {
   margin-bottom: 24px;
 }
+
 .superChargeContainer {
   max-width: 1192px;
   padding: 0;
   margin: 0 auto;
   position: relative;
 }
+
 .superChargeTitle {
   font-size: 44px;
   line-height: 54px;
@@ -20,9 +64,11 @@
   color: #212121;
   text-align: left;
 }
+
 .superChargeFlexCon {
   position: relative;
 }
+
 .superChargeFullCon {
   margin-right: 54px;
   height: 484px;
@@ -31,12 +77,14 @@
   border-bottom-right-radius: 48px;
   background-color: #363636;
 }
+
 .superChargeFullCon::after {
   content: url('../assets/img/dec1280.svg');
   position: absolute;
   right: -50px;
   bottom: -53px;
 }
+
 .superChargeFullConDots {
   right: 550px;
   position: absolute;
@@ -44,6 +92,7 @@
   transform: rotate(0deg);
   bottom: -6px;
 }
+
 .superChargeFullConDotsSpan {
   display: inline-block;
   overflow: hidden;
@@ -57,6 +106,7 @@
   position: relative;
   max-width: 100%;
 }
+
 .superChargeFullConDotsSecondSpan {
   display: block;
   width: initial;
@@ -68,6 +118,7 @@
   padding: 0;
   max-width: 100%;
 }
+
 .superChargeFullConDotsHiddenImage {
   display: block;
   max-width: 100%;
@@ -79,6 +130,7 @@
   margin: 0;
   padding: 0;
 }
+
 .superChargeFullConDotsImage {
   position: absolute;
   top: 0;
@@ -112,6 +164,7 @@
   border-bottom-right-radius: 48px;
   overflow: hidden;
 }
+
 .superChargeFullConDec1::before {
   left: -260px;
   content: "";
@@ -123,6 +176,7 @@
   position: absolute;
   top: -242px;
 }
+
 .superChargeFullConApp {
   margin-right: 0;
   width: 653px;
@@ -132,6 +186,7 @@
   margin-left: 0;
   position: relative;
 }
+
 .superChargeFullConAppSpan {
   display: block;
   overflow: hidden;
@@ -148,6 +203,7 @@
   bottom: 0;
   right: 0;
 }
+
 .superChargeFullConAppImage {
   position: absolute;
   top: 0;
@@ -168,6 +224,7 @@
   overflow-clip-margin: content-box;
   overflow: clip;
 }
+
 .superChargeFullConDec1::after {
   left: 166px;
   bottom: -285px;
@@ -180,6 +237,7 @@
   position: absolute;
   right: 0;
 }
+
 .superChargeFlexConInfo {
   position: absolute;
   inset: 0;
@@ -187,12 +245,11 @@
   border-bottom-right-radius: 0;
   background-color: transparent;
 }
+
 .superChargeFlexConInfoDots {
-  position: absolute;
-  right: -100px;
-  bottom: 280px;
-  transform: rotate(90deg);
+  display: none;
 }
+
 .superChargeFlexConInfoDotsSpan {
   display: inline-block;
   overflow: hidden;
@@ -206,6 +263,7 @@
   position: relative;
   max-width: 100%;
 }
+
 .superChargeFlexConInfoDotsSecondSpan {
   display: block;
   width: initial;
@@ -217,6 +275,7 @@
   padding: 0;
   max-width: 100%;
 }
+
 .superChargeFlexConInfoDotsHiddenImage {
   display: block;
   max-width: 100%;
@@ -228,6 +287,7 @@
   margin: 0;
   padding: 0;
 }
+
 .superChargeFlexConInfoDotsImage {
   position: absolute;
   top: 0;
@@ -253,6 +313,7 @@
   position: relative;
   height: 100%;
 }
+
 .flexConGrid {
   display: grid;
   grid-template-columns: repeat(2, 191px);
@@ -262,6 +323,7 @@
   padding-top: 96px;
   margin-bottom: 0;
 }
+
 .flexConGridFadeInWrapper {
   animation-duration: 1000ms;
   animation-delay: 1000ms;
@@ -270,9 +332,11 @@
   visibility: hidden;
   opacity: 0;
 }
+
 .superChargeElem {
   padding-left: 0;
 }
+
 @keyframes FadeInWrapper {
   0% {
     opacity: 0;
@@ -297,6 +361,7 @@
   z-index: 1;
   padding: 0;
 }
+
 .superChargeBottomTitle::before {
   content: "";
   position: absolute;
@@ -309,6 +374,7 @@
   left: -22px;
   z-index: -1;
 }
+
 .superChargeBottomText {
   font-family: Inter, sans-serif;
   font-weight: 400;
@@ -320,7 +386,273 @@
 }
 
 .superChargeBottomMobileImage {
-  width: 103%;
-  height: auto;
-  border-bottom-right-radius: 48px;
+  display: none;
+}
+
+
+@media screen and (max-width: 1440px) {
+  .superChargeContainer {
+    max-width: 1192px;
+  }
+  .superChargeTitle {
+    font-size: 44px;
+    line-height: 54px;
+  }
+  .superChargeFullCon {
+    margin-right: 54px;
+  }
+  .superChargeFullConDots {
+    right: 550px;
+  }
+  .superChargeFullConDec1::before {
+    left: -260px;
+  }
+  .superChargeFullConDec1::after {
+    left: 166px;
+  }
+  .superChargeFlexConInfoContainer {
+    max-width: 1192px;
+  }
+  .flexConGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 191px);
+    padding-top: 96px;
+  }
+  .superChargeBottomTitle {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .superChargeBottomText {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .superChargeBottomMobileImage {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .superChargeContainer {
+    max-width: 1032px;
+  }
+  .superChargeFullConDots {
+    right: 480px;
+  }
+  .superChargeFullConDec1::before {
+    left: -340px;
+  }
+  .superChargeFullConApp {
+    margin-right: -80px;
+  }
+  .superChargeFullConDec1::after {
+    left: 97px;
+    bottom: -285px;
+  }
+  .superChargeFlexConInfoContainer {
+    max-width: 1032px;
+  }
+
+  .superChargeBottomTitle {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .superChargeBottomText {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .superChargeBottomMobileImage {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .superChargeContainer {
+    max-width: 1024px;
+    padding: 0 40px;
+  }
+  .superChargeFullConDots {
+    right: 360px;
+  }
+  .superChargeFullCon {
+    margin-right: 0;
+  }
+  .superChargeFullConDec1::before {
+    left: -242px;
+    top: -349px;
+  }
+  .superChargeFullConApp {
+    margin-right: -188px;
+  }
+  .superChargeFullConDec1::after {
+    left: 13px;
+    bottom: -265px;
+  }
+
+  .superChargeFullCon::after {
+    content: url('../assets/img/dec1024.svg');
+    right: 0;
+    bottom: -91px;
+  }
+  .superChargeFlexConInfoDots {
+    display: none;
+  }
+  .superChargeFlexConInfoContainer {
+    max-width: 1024px;
+    padding: 0 40px;
+  }
+  .superChargeElemLast {
+    padding-left: 0;
+    grid-area: 2 / 1 / 4 / 2
+  }
+  .superChargeBottomTitle {
+    display: block;
+    text-align: left;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .superChargeBottomMobileImage {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .superChargeContainer {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+  .superChargeTitle {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .superChargeFullCon {
+    margin-right: 0;
+    height: 653px;
+  }
+  .superChargeFullCon::after {
+    content: url('../assets/img/dec768.svg');
+    right: 0;
+    bottom: -85px;
+  }
+  .superChargeFullConDots {
+    display: none;
+  }
+
+  .superChargeFullConDec1::before {
+    left: -349px;
+  }
+  .superChargeFullConApp {
+    display: block;
+    width: 608px;
+    height: 401px;
+    margin-left: 0;
+    margin-right: -130px;
+    z-index: 2;
+    margin-bottom: -254px;
+  }
+  .superChargeFullConDec1::after {
+    left: -30px;
+    bottom: -130px;
+  }
+  .superChargeFlexConInfoDots {
+    display: none;
+  }
+  .superChargeFlexConInfoContainer {
+    max-width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+  }
+  .flexConGrid {
+    grid-template-columns: repeat(2, 236px);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 101px 131px;
+    margin-bottom: 0;
+    padding-top: 80px;
+    padding-left: 27px;
+  }
+  .superChargeElemLast {
+    padding-left: 0;
+    grid-area: 3 / 1 / 4 / 2
+  }
+  .superChargeBottomTitle {
+    display: block;
+    text-align: left;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .superChargeBottomMobileImage {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .superChargeTitle {
+    font-size: 32px;
+    line-height: 39px;
+    margin: 0 auto 24px;
+    max-width: 343px;
+  }
+  .superChargeFullCon {
+    display: block;
+    height: 890px;
+  }
+  .superChargeFullConDots {
+    display: none;
+  }
+
+  .superChargeFullConApp {
+    display: none;
+  }
+  .superChargeFullConDec1::after {
+    right: 0;
+    left: 86px;
+    bottom: 60px;
+    top: -371px;
+  }
+  .superChargeFlexConInfo {
+    border-top-right-radius: 48px;
+    border-bottom-right-radius: 48px;
+    display: block;
+  }
+  .superChargeFlexConInfo::after {
+    content: url('../assets/img/dec375.svg');
+    right: 2px;
+    bottom: -60px;
+  }
+  .superChargeFlexConInfoDots {
+    position: absolute;
+    right: -100px;
+    bottom: 280px;
+    transform: rotate(90deg);
+    display: block;
+  }
+  .superChargeFlexConInfoContainer {
+    max-width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+  }
+  .flexConGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 53px;
+    padding-top: 48px;
+    margin-bottom: 0;
+  }
+  .superChargeElemLast {
+    grid-area: revert
+  }
+  .superChargeBottomTitle {
+    display: inline-block;
+  }
+  .superChargeBottomMobileImage {
+    width: 105%;
+    height: auto;
+    border-bottom-right-radius: 48px;
+    border-style: none;
+    display: block;
+  }
 }

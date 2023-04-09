@@ -4,7 +4,8 @@ import styles from "../../styles/superCharge.module.scss";
 import ariaHiddenSC from "../../assets/img/ariaHiddenSC.svg";
 import fdots from "../../assets/img/fdots.png";
 import superChApp from "../../assets/img/superChApp.jpg";
-import aaa from "../../assets/img/aaa.gif";
+import superCharge from "../../assets/img/superCharge.jpg";
+import aaa from "../../assets/img/aaa.png";
 import superChHiddenDots from "../../assets/img/superChHiddenDots.svg";
 
 export interface possibilitiesItems {
@@ -28,13 +29,10 @@ export const possibilities: possibilitiesItems[] = [
         text: "Collect payments and reconcile against invoices, without " +
             "ever checking bank statements"
     },
-    {
-        title: "And more in one dashboard...",
-        text: ""
-    },
 ]
 export const SuperCharge = () => {
     const [animationComplete, setAnimationComplete] = useState(false);
+
     return (
         <section className={styles.sectionSuperCharge}>
             <div className={styles.superChargeContainer}>
@@ -82,6 +80,7 @@ export const SuperCharge = () => {
                                             animationFillMode: animationComplete ? "forwards" : "",
                                             visibility: animationComplete ? "visible" : "hidden",
                                             opacity: animationComplete ? 1 : 0,
+                                            display: "grid"
                                         }}
                                         onAnimationEnd={() => {
                                             if (index === possibilities.length - 1) {
@@ -96,7 +95,21 @@ export const SuperCharge = () => {
                                     </div>
                                 )
                             }
-                            {/*<img src={superCharge} className={styles.superChargeBottomMobileImage} alt="superCharge"/>*/}
+                            <div className={styles.superChargeElemLast}>
+                                <div className={styles.flexConGridFadeInWrapper}
+                                     style={{
+                                         animationDelay: '2600ms',
+                                         animationFillMode: animationComplete ? "forwards" : "",
+                                         visibility: animationComplete ? "visible" : "hidden",
+                                         opacity: animationComplete ? 1 : 0,
+                                         display: "grid"
+                                     }}
+                                >
+                                    <h3 className={styles.superChargeBottomTitle}>And more in one dashboard...</h3>
+                                    <p className={styles.superChargeBottomText}></p>
+                                </div>
+                            </div>
+                            <img src={superCharge} className={styles.superChargeBottomMobileImage} alt="superCharge"/>
                         </div>
                     </div>
                 </div>
