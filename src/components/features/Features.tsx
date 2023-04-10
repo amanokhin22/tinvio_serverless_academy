@@ -18,6 +18,7 @@ import appShadow from "../../assets/img/appShadow.png";
 import request from "../../assets/img/request.png";
 import rightLine from "../../assets/img/rightLine.svg";
 import leftLine from "../../assets/img/leftLine.svg";
+import {StyledTools} from "./StyledTools";
 
 export const Features = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -75,6 +76,7 @@ export const Features = () => {
                     </div>
                 </section>
                 <SuperCharge/>
+                <StyledTools/>
                 <section></section>
                 <section></section>
                 <section></section>
