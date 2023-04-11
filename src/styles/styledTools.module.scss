@@ -1,15 +1,16 @@
-
 //desktop view
 .styledTools {
   margin-bottom: 80px;
   margin-top: 0;
 }
+
 .fullCon {
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
   gap: 24px;
 }
+
 .toolsManage {
   flex: 0 0 654px;
   margin-left: 54px;
@@ -29,24 +30,26 @@
   z-index: 1;
   padding-top: 48px;
 }
+
 .toolsManage::before {
   left: -80px;
   top: 40px;
   content: "";
   position: absolute;
-  width: 364.08px;
-  height: 364.08px;
+  width: 364px;
+  height: 364px;
   background: radial-gradient(95.51% 95.51% at 50% 50%, rgba(210, 210, 210, 0.3) 0%, rgba(250, 250, 250, 0.3) 100%);
   border-radius: 24px;
   transform: rotate(-45deg);
   z-index: -1;
 }
+
 .toolsManage::after {
   right: -130px;
   content: "";
   position: absolute;
-  width: 229.52px;
-  height: 229.52px;
+  width: 230px;
+  height: 230px;
   top: 50px;
   background: radial-gradient(95.51% 95.51% at 50% 50%, rgba(210, 210, 210, 0.3) 0%, rgba(250, 250, 250, 0.3) 100%);
   border-radius: 32px;
@@ -54,6 +57,7 @@
   z-index: -1;
   text-align: center;
 }
+
 .manageTitle {
   font-family: Gilroy, sans-serif;
   font-weight: 700;
@@ -64,6 +68,7 @@
   margin: 0 0 8px;
   padding: 0;
 }
+
 .manageText {
   font-family: Inter, sans-serif;
   font-weight: 400;
@@ -74,6 +79,7 @@
   margin: 0 auto 24px;
   max-width: 330px;
 }
+
 .manageSpan {
   display: inline-block;
   overflow: hidden;
@@ -87,6 +93,7 @@
   position: relative;
   max-width: 100%;
 }
+
 .manageBottomSpan {
   display: block;
   width: initial;
@@ -98,6 +105,7 @@
   padding: 0;
   max-width: 100%;
 }
+
 .manageHiddenImage {
   display: block;
   max-width: 100%;
@@ -109,6 +117,7 @@
   margin: 0;
   padding: 0;
 }
+
 .manageImage {
   position: absolute;
   top: 0;
@@ -126,6 +135,7 @@
   min-height: 100%;
   max-height: 100%;
 }
+
 .manageDec {
   position: absolute;
   inset: 0;
@@ -134,12 +144,14 @@
   text-align: center;
   display: block;
 }
+
 .manageDecDots {
   right: 0;
   position: absolute;
   bottom: 0;
   z-index: -1;
 }
+
 .decDotsSpan {
   display: inline-block;
   overflow: hidden;
@@ -153,6 +165,7 @@
   position: relative;
   max-width: 100%;
 }
+
 .decDotsBottomSpan {
   display: block;
   width: initial;
@@ -164,6 +177,7 @@
   padding: 0;
   max-width: 100%;
 }
+
 .decDotsHiddenImage {
   display: block;
   max-width: 100%;
@@ -211,6 +225,7 @@
   overflow: hidden;
   z-index: 1;
 }
+
 .message::before {
   top: -70px;
   left: -54px;
@@ -223,8 +238,9 @@
   position: absolute;
   z-index: -1;
 }
+
 .message::after {
-right: -72px;
+  right: -72px;
   bottom: -88px;
   content: "";
   width: 294px;
@@ -235,6 +251,7 @@ right: -72px;
   position: absolute;
   z-index: -1;
 }
+
 .messageDec {
   position: absolute;
   inset: 0;
@@ -242,6 +259,7 @@ right: -72px;
   width: 100%;
   display: block;
 }
+
 .messageDecDots {
   bottom: 0;
   left: 20px;
@@ -259,6 +277,7 @@ right: -72px;
   margin-bottom: 24px;
   margin-top: 0;
 }
+
 .messageButton {
   height: 40px;
   width: 40px;
@@ -280,15 +299,18 @@ right: -72px;
   font-size: 100%;
   line-height: 1.15;
 }
+
 .label {
   position: relative;
 }
+
 .label::before {
   content: url('../assets/img/arrowTools.svg');
   position: absolute;
   top: 10px;
   right: 21px;
 }
+
 .messageInput {
   background: rgb(243, 244, 245);
   height: 40px;
@@ -302,6 +324,7 @@ right: -72px;
   line-height: 1.15;
   margin: 0;
 }
+
 .messageTitle {
   font-family: Gilroy, sans-serif;
   font-weight: 700;
@@ -312,11 +335,13 @@ right: -72px;
   text-align: center;
   padding: 0;
 }
+
 .wrapperLine2 {
   flex-direction: row;
   display: flex;
   gap: 16px;
 }
+
 .share {
   flex: 1 1 0;
   order: 2;
@@ -326,6 +351,7 @@ right: -72px;
   overflow: hidden;
   display: block;
 }
+
 .share::before {
   left: -137px;
   top: -170px;
@@ -337,6 +363,7 @@ right: -72px;
   border-radius: 32px;
   transform: rotate(-45deg);
 }
+
 .share::after {
   left: 240px;
   content: "";
@@ -348,9 +375,11 @@ right: -72px;
   border-radius: 32px;
   transform: rotate(-45deg);
 }
+
 .mobileWrapper {
   display: none;
 }
+
 .invoiceBlock1 {
   margin: 0 auto;
   width: 96px;
@@ -359,6 +388,7 @@ right: -72px;
   border-radius: 17px;
   padding: 16px;
 }
+
 .invoiceBlock2 {
   width: 64px;
   height: 64px;
@@ -370,6 +400,7 @@ right: -72px;
   -webkit-box-align: center;
   align-items: center;
 }
+
 .invoiceTitle {
   font-size: 24px;
   line-height: 30px;
@@ -379,32 +410,38 @@ right: -72px;
   text-align: center;
   color: rgb(255, 255, 255);
 }
+
 .invoiceDec {
   position: absolute;
   inset: 0;
   height: 100%;
   width: 100%;
 }
+
 .invoiceDecDots {
   right: 0;
   position: absolute;
   top: -7px;
   z-index: -1;
 }
+
 .notMobileWrapper {
   display: block;
 }
+
 .shareDec {
   position: absolute;
   inset: 0;
   height: 100%;
   width: 100%;
 }
+
 .shareDecDots {
   left: 210px;
   position: absolute;
   top: 0;
 }
+
 .shareBlock1 {
   width: 96px;
   height: 96px;
@@ -416,6 +453,7 @@ right: -72px;
   z-index: 2;
   box-shadow: rgba(0, 0, 0, 0.1) 6px 8px 20px 0;
 }
+
 .shareTitle {
   font-size: 24px;
   line-height: 30px;
@@ -428,6 +466,7 @@ right: -72px;
   text-align: center;
   padding: 0;
 }
+
 .invoices {
   flex: 0 0 275px;
   padding: 44px 0;
@@ -440,6 +479,7 @@ right: -72px;
   overflow: hidden;
   z-index: 1;
 }
+
 .invoices::before {
   top: -58px;
   left: -162px;
@@ -452,6 +492,7 @@ right: -72px;
   position: absolute;
   z-index: -2;
 }
+
 .invoices::after {
   right: -151px;
   bottom: -51px;
@@ -464,15 +505,597 @@ right: -72px;
   position: absolute;
   z-index: -2;
 }
+
 .invoicesDec {
   position: absolute;
   inset: 0;
   height: 100%;
   width: 100%;
 }
+
 .invoicesDecDots {
   right: 0;
   position: absolute;
   top: -7px;
   z-index: -1;
+}
+
+@media screen and (max-width: 1920px) {
+  .styledTools {
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+  }
+  .fullCon {
+    margin-left: 234px;
+    width: 100%;
+  }
+  .toolsManage {
+    flex: 0 0 714px;
+    margin-left: 0;
+  }
+  .toolsManage::before {
+    left: -20px;
+  }
+  .manageTitle {
+    font-size: 28px;
+    line-height: 35px;
+
+  }
+  .manageText {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .message::after {
+    right: 179px;
+  }
+  .messageButtons {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    margin-left: 133px;
+  }
+  .messageTitle {
+    font-size: 28px;
+    line-height: 35px;
+    text-align: left;
+    margin-left: 222px;
+  }
+  .shareDecDots {
+    left: 170px;
+  }
+  .shareBlock1 {
+    margin: 0 auto 16px 121px;
+  }
+  .shareTitle {
+    text-align: left;
+    margin-left: 59px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .share::after {
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+
+  .fullCon {
+    margin-left: 0;
+    width: 100%;
+  }
+  .toolsManage {
+    flex: 0 0 654px;
+    margin-left: 54px;
+    margin-bottom: 0;
+    max-height: 481px;
+  }
+  .toolsManage::before {
+    left: -80px;
+  }
+  .toolsManage::after {
+    left: -130px;
+  }
+  .manageTitle {
+    font-size: 24px;
+    line-height: 29px;
+
+  }
+  .manageText {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .wrapper {
+    flex: 1 1 0;
+    display: block;
+  }
+
+  .message {
+    max-height: 228px;
+    padding: 67px 0;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    margin-bottom: 24px;
+    background: rgb(54, 54, 54);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .wrapperLine2 {
+    flex-direction: row;
+  }
+  .shareDecDots {
+    left: 210px;
+    top: 0;
+    position: absolute;
+  }
+  .share {
+    padding: 44px 0;
+    max-height: 229px;
+  }
+  .share::before {
+    left: -137px;
+    top: -170px;
+  }
+  .share::after {
+    left: 240px;
+  }
+  .shareBlock1 {
+    margin: 0 auto 16px;
+  }
+  .shareTitle {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .share::after {
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .toolsManage {
+    flex: 0 0 574px;
+    margin-left: 54px;
+    margin-bottom: 0;
+    max-height: 481px;
+  }
+  .message {
+    max-height: 228px;
+  }
+  .share {
+    padding: 44px 0;
+    max-height: 229px;
+  }
+  .invoiceTitle {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .invoiceDecDots {
+    right: 0;
+  }
+  .shareTitle {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .invoices {
+    flex: 0 0 275px;
+    padding: 44px 0;
+    max-height: 229px;
+  }
+  .invoices::after {
+    right: -151px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .styledTools {
+    margin-bottom: 80px;
+    margin-top: 0;
+  }
+  .fullCon {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .toolsManage {
+    flex: 0 0 544px;
+    max-height: 481px;
+    margin: 0;
+  }
+  .toolsManage::before {
+    left: -160px;
+  }
+  .toolsManage::after {
+    right: -130px;
+    left: unset;
+    content: "";
+    position: absolute;
+    width: 229.52px;
+    height: 229.52px;
+    top: 50px;
+    background: radial-gradient(95.51% 95.51% at 50% 50%, rgba(210, 210, 210, 0.3) 0%, rgba(250, 250, 250, 0.3) 100%);
+    border-radius: 32px;
+    transform: rotate(-45deg);
+    z-index: -1;
+  }
+  .manageDecDots {
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+  }
+  .wrapper {
+    flex: 1 1 0;
+  }
+  .message {
+    padding: 67px 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 24px;
+  }
+  .message::after {
+    right: -245px;
+    bottom: -104px;
+  }
+  .messageButtons {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 24px;
+    margin-left: 0;
+  }
+  .messageTitle {
+    font-size: 23px;
+    line-height: 29px;
+    text-align: center;
+    margin-left: 0;
+  }
+  .invoices {
+    flex: 1 1 0;
+  }
+  .share {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 46px 0;
+  }
+  .share::before {
+    left: -137px;
+  }
+  .share::after {
+    left: 210px;
+  }
+  .shareDecDots {
+    left: 170px;
+  }
+  .shareTitle {
+    font-size: 19px;
+    line-height: 25px;
+    color: rgb(33, 33, 33);
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    text-align: center;
+  }
+  .invoicesDecDots {
+    right: -50px;
+    top: -7px;
+  }
+  .invoiceTitle {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .styledTools {
+    margin-bottom: 140px;
+    margin-top: 0;
+  }
+  .fullCon {
+    display: block;
+  }
+  .toolsManage {
+    margin: 0 0 16px 0;
+    padding-top: 48px;
+  }
+
+  .toolsManage::before {
+    left: -100px;
+    top: 40px;
+  }
+
+  .toolsManage::after {
+    right: -30px;
+    left: 0;
+  }
+  .manageDecDots {
+    right: 80px;
+    bottom: 0;
+  }
+  .wrapper {
+    display: block;
+  }
+  .message {
+    background: rgb(54, 54, 54);
+    border-radius: 32px;
+    position: relative;
+    overflow: hidden;
+    padding: 54px 16px;
+    margin-bottom: 16px;
+    z-index: 1;
+  }
+  .message::before {
+    top: -70px;
+    left: -54px;
+  }
+  .message::after {
+    content: "";
+    width: 294px;
+    height: 294px;
+    border-radius: 26px;
+    transform: rotate(-45deg);
+    background-color: rgb(63, 63, 63);
+    position: absolute;
+    right: -101px;
+    bottom: -104px;
+    z-index: -1;
+  }
+  .messageDecDots {
+    bottom: 0;
+    left: 20px;
+  }
+  .messageButtons {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 24px;
+    margin-left: 0;
+  }
+  .messageButton {
+    height: 40px;
+    width: 40px;
+    flex: 0 0 40px;
+    margin-right: 8px;
+    padding: 0;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  .messageInput {
+    height: 40px;
+    width: 283px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 11px 19px 11px 14px;
+  }
+  .messageTitle {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .wrapperLine2 {
+    flex-direction: row;
+  }
+  .share {
+    flex: 1 1 0;
+    order: 2;
+    background: rgb(247, 247, 247);
+    border-radius: 32px;
+    position: relative;
+    overflow: hidden;
+    padding: 46px 0;
+  }
+  .share::before {
+    top: -170px;
+    left: -97px;
+  }
+  .share::after {
+    left: 230px;
+  }
+  .mobileWrapper {
+    display: none;
+  }
+  .notMobileWrapper {
+    display: block;
+  }
+  .shareDecDots {
+    left: 200px;
+  }
+  .shareTitle {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .invoices {
+    flex: 1 1 0;
+    padding: 46px 0;
+  }
+  .invoices::before {
+    top: -58px;
+    left: -162px;
+  }
+  .invoicesDecDots {
+    right: 0;
+  }
+  .invoices::after {
+    content: "";
+    width: 235px;
+    height: 235px;
+    background-color: rgb(63, 63, 63);
+    border-radius: 26px;
+    transform: rotate(-31deg);
+    position: absolute;
+    right: -73px;
+    bottom: -37px;
+    z-index: -2;
+  }
+  .invoiceTitle {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .invoiceBlock1 {
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 17px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .styledTools {
+    margin-bottom: 120px;
+    margin-top: 36px;
+  }
+  .fullCon {
+    display: block;
+  }
+  .toolsManage {
+    margin-bottom: 16px;
+    padding-top: 48px;
+  }
+  .toolsManage::before {
+    left: -230px;
+    top: 50px;
+  }
+  .toolsManage::after {
+    top: 50px;
+    right: -180px;
+    left: 330px;
+  }
+  .manageDecDots {
+    bottom: 0;
+    right: -190px;
+  }
+
+  .message::before {
+    top: -62px;
+    left: -67px;
+  }
+  .message::after {
+    display: none;
+  }
+  .messageDecDots {
+    left: 0;
+    bottom: -30px;
+  }
+  .messageButtons {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  .messageButton {
+    height: 36px;
+    width: 36px;
+    flex: 0 0 36px;
+    margin-right: 8px;
+    padding: 0;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  .messageTitle {
+    font-size: 23px;
+    line-height: 29px;
+    text-align: center;
+  }
+  .messageInput {
+    height: 36px;
+    width: 256px;
+  }
+  .wrapperLine2 {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 16px;
+  }
+  .share::before {
+    top: -195px;
+    left: -121px;
+  }
+  .share::after {
+    bottom: -85px;
+    left: 200px;
+    width: 178.21px;
+    height: 178.21px;
+  }
+  .shareTitle {
+    font-size: 19px;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    text-align: center;
+  }
+  .notMobileWrapper {
+    display: none;
+  }
+  .mobileWrapper {
+    display: block;
+  }
+  .invoiceBlock1 {
+    margin: 0 auto 16px;
+  }
+  .invoicesDecDots {
+    position: absolute;
+    right: 0;
+    top: -7px;
+    z-index: -1;
+  }
+  .invoices {
+    display: flex;
+    flex-direction: column;
+    background: rgb(54, 54, 54);
+    border-radius: 32px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 46px 0;
+  }
+
+  .invoices::before {
+    top: -65px;
+    left: -150px;
+  }
+
+  .invoices::after {
+    right: -73px;
+    bottom: -37px;
+  }
+  .invoiceTitle {
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    color: rgb(33, 33, 33);
+    margin: 0;
+  }
+  .shareDecDots {
+    left: 183px;
+    top: 0;
+  }
 }

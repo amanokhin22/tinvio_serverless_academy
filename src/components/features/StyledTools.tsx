@@ -16,6 +16,7 @@ import invoiceDots from "../../assets/img/invoiceDots.png";
 import shareHiddenDots from "../../assets/img/shareHiddenDots.svg";
 import shareDots from "../../assets/img/shareDots.png";
 import hiddenUp from "../../assets/img/hiddenUp.svg";
+import hiddenShare from "../../assets/img/hiddenShare.svg";
 import share from "../../assets/img/share.svg";
 import hiddenDots1 from "../../assets/img/hiddenDots1.svg";
 import shareDots1 from "../../assets/img/shareDots1.png";
@@ -151,7 +152,7 @@ export const StyledTools = () => {
                                 <div className={styles.shareBlock1}>
                                     <span className={styles.decDotsSpan}>
                                             <span className={styles.decDotsBottomSpan}>
-                                                <img src={hiddenDollar} alt="hiddenDots1"
+                                                <img src={hiddenShare} alt="hiddenDots1"
                                                      className={styles.decDotsHiddenImage}/>
                                             </span>
                                             <img src={share} alt="share" className={styles.decDotsImage}/>
