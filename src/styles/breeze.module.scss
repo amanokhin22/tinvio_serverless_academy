@@ -1,0 +1,451 @@
+//desktop view
+.styledBreeze {
+  padding: 288px 0;
+  margin-bottom: 80px;
+  position: relative;
+  display: block;
+}
+
+.featuresConBreeze {
+  max-width: 1192px;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.breezeContainer {
+  display: block;
+  -webkit-box-align: center;
+}
+
+.breezeTitle {
+  font-size: 41px;
+  line-height: 52px;
+  max-width: 450px;
+  margin: 0 0 16px;
+  text-align: left;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(33, 33, 33);
+  padding: 0;
+}
+
+.breezeText {
+  max-width: 442px;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: Inter, sans-serif;
+  line-height: 23px;
+  color: rgb(92, 92, 92);
+  margin: 0;
+  position: relative;
+}
+
+.breezeTextDots {
+  left: -160px;
+  display: inline-block;
+  position: absolute;
+  bottom: -215px;
+  z-index: -1;
+}
+
+.styledFirstSpan {
+  display: inline-block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  max-width: 100%;
+}
+
+.styledSecondSpan {
+  display: block;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.styledHiddenImage {
+  display: block;
+  max-width: 100%;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.styledImage {
+  position: absolute;
+  inset: 0;
+  padding: 0;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0;
+  height: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+.breezeBlock1 {
+  right: -76px;
+  position: absolute;
+  margin: 0;
+  top: -168px;
+  width: 560.03px;
+  height: 560.03px;
+  padding: 35px;
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgba(218, 218, 218, 0.3) 0%, rgba(250, 250, 250, 0.3) 100%);
+  border-radius: 55.2257px;
+  transform: rotate(-45deg);
+}
+
+.breezeBlock2 {
+  width: 490px;
+  height: 490px;
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgba(218, 218, 218, 0.6) 0%, rgba(250, 250, 250, 0.6) 100%);
+  border-radius: 55.2257px;
+  position: relative;
+}
+
+.breezeBlock {
+  position: absolute;
+  inset: 0;
+  transform: rotate(45deg);
+}
+
+.breezeAdd {
+  left: 120px;
+  top: 31px;
+  position: absolute;
+}
+
+.conSvg {
+  left: 47px;
+  width: auto;
+  bottom: -82px;
+  position: absolute;
+  height: auto;
+  fill: none;
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+  animation-duration: 1000ms;
+  animation-delay: 1000ms;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.addBlock {
+  width: 268px;
+  height: 45px;
+  border-radius: 11px;
+  padding: 13px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  box-shadow: rgba(33, 33, 33, 0.1) 5px 8px 17px 0;
+  transform: scale(1);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) 0.9s;
+  opacity: 0;
+  animation: 0.3s ease-in 0.85s 1 normal forwards running fadeIn;
+}
+
+.addCon {
+  gap: 8px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.addFile {
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+
+.aloneSpan {
+  display: block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.aloneImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0;
+  height: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.addText {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  color: rgb(92, 92, 92);
+  margin: 0;
+}
+
+.addArrow {
+  height: 9px;
+  width: 9px;
+  position: relative;
+}
+
+.womanSvg {
+  right: -21px;
+  width: auto;
+  bottom: -115px;
+  position: absolute;
+  height: auto;
+  fill: none;
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+  animation-duration: 1000ms;
+  animation-delay: 1400ms;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.del {
+  top: 144px;
+  left: 46px;
+  width: 262px;
+  height: 44px;
+  border-radius: 14px;
+  padding: 13px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  box-shadow: rgba(33, 33, 33, 0.1) 5px 8px 17px 0;
+  transform: scale(1);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) 1.45s;
+  opacity: 0;
+  animation: 0.3s ease-in 1.35s 1 normal forwards running fadeIn;
+}
+
+.delCon {
+  gap: 8px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.delCal {
+  width: 16px;
+  height: 18px;
+  position: relative;
+}
+
+.delText {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  color: rgb(92, 92, 92);
+  margin: 0;
+}
+
+.delDate {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  color: rgb(33, 33, 33);
+  margin: 0;
+}
+
+.manDec {
+  left: -23px;
+  display: block;
+  position: absolute;
+  top: 204px;
+  opacity: 0;
+  animation: 0.3s ease-in 1.8s 1 normal forwards running fadeIn;
+}
+
+.man {
+  position: absolute;
+  left: 5px;
+  bottom: 121px;
+  opacity: 0;
+  animation: 0.3s ease-in 1.8s 1 normal forwards running fadeIn;
+}
+
+.imgWrap {
+  width: 124px;
+  height: 124px;
+  position: relative;
+}
+
+.womanDec {
+  top: 113px;
+  right: -25px;
+  position: absolute;
+  opacity: 0;
+  animation: 0.3s ease-in 300ms 1 normal forwards running fadeIn;
+}
+
+.imgDiv {
+  right: 5px;
+  top: 162px;
+  opacity: 0;
+  animation: 0.3s ease-in 300ms 1 normal forwards running fadeIn;
+  position: absolute;
+}
+
+.manSvg {
+  left: 123px;
+  width: auto;
+  bottom: 148px;
+  position: absolute;
+  height: auto;
+  fill: none;
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+  animation-duration: 1000ms;
+  animation-delay: 1600ms;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.order {
+  right: 8px;
+  border-radius: 14px;
+  bottom: 72px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(33, 33, 33, 0.1) 5px 8px 17px 0;
+  transform: scale(1);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) 2.5s;
+  opacity: 0;
+  animation: 0.3s ease-in 2.4s 1 normal forwards running fadeIn;
+}
+
+.orderInfo {
+  padding: 13px 9px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.orderText {
+  font-size: 12px;
+  line-height: 15px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  color: rgb(33, 33, 33);
+  margin: 0;
+}
+
+.orderPrice {
+  font-size: 12px;
+  line-height: 15px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 700;
+  color: rgb(33, 33, 33);
+  margin: 0;
+}
+
+.orderButton {
+  font-size: 14px;
+  line-height: 17px;
+  padding: 15px 67px;
+  border-radius: 13px;
+  background-color: rgb(255, 71, 77);
+  border-style: none;
+  font-family: Gilroy, sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  -webkit-appearance: button;
+  text-transform: none;
+  overflow: visible;
+}
+
+.block2Dec0 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.dotM {
+  left: -30px;
+  bottom: -58px;
+  position: absolute;
+  z-index: -3;
+}
+
+.dotR {
+  right: -260px;
+  display: block;
+  position: absolute;
+  top: -448px;
+}

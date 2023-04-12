@@ -19,6 +19,7 @@ import request from "../../assets/img/request.png";
 import rightLine from "../../assets/img/rightLine.svg";
 import leftLine from "../../assets/img/leftLine.svg";
 import {StyledTools} from "./StyledTools";
+import {Breeze} from "./Breeze";
 
 export const Features = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -77,7 +78,7 @@ export const Features = () => {
                 </section>
                 <SuperCharge/>
                 <StyledTools/>
-                <section></section>
+                <Breeze/>
                 <section></section>
                 <section></section>
                 <section></section>
