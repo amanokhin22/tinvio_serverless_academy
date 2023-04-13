@@ -20,6 +20,7 @@ import rightLine from "../../assets/img/rightLine.svg";
 import leftLine from "../../assets/img/leftLine.svg";
 import {StyledTools} from "./StyledTools";
 import {Breeze} from "./Breeze";
+import {Sounds} from "./Sounds";
 
 export const Features = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -79,6 +80,7 @@ export const Features = () => {
                 <SuperCharge/>
                 <StyledTools/>
                 <Breeze/>
+                <Sounds/>
                 <section></section>
                 <section></section>
                 <section></section>
