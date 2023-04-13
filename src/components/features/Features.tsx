@@ -4,6 +4,10 @@ import {Header} from "../Header";
 import {Footer} from "../Footer";
 import {ModalForm} from "./ModalForm";
 import {SuperCharge} from "./SuperCharge";
+import {StyledTools} from "./StyledTools";
+import {Breeze} from "./Breeze";
+import {Sounds} from "./Sounds";
+import {Send} from "./Send";
 
 import styles from "../../styles/features.module.scss";
 import dec1 from "../../assets/img/dec1.svg";
@@ -18,9 +22,6 @@ import appShadow from "../../assets/img/appShadow.png";
 import request from "../../assets/img/request.png";
 import rightLine from "../../assets/img/rightLine.svg";
 import leftLine from "../../assets/img/leftLine.svg";
-import {StyledTools} from "./StyledTools";
-import {Breeze} from "./Breeze";
-import {Sounds} from "./Sounds";
 
 export const Features = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -81,7 +82,7 @@ export const Features = () => {
                 <StyledTools/>
                 <Breeze/>
                 <Sounds/>
-                <section></section>
+                <Send/>
                 <section></section>
                 <section></section>
                 <section></section>

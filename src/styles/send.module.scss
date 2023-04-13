@@ -1,0 +1,823 @@
+//desktop view
+.styledSend {
+  margin-bottom: 120px;
+  display: block;
+}
+
+.sendCon {
+  max-width: 1192px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.sendInfo {
+  gap: 88px;
+  margin-bottom: 40px;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  display: flex;
+}
+
+.sendTitle {
+  font-size: 38px;
+  line-height: 49px;
+  flex: 0 0 540px;
+  align-self: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(33, 33, 33);
+  padding: 0;
+  margin: 0;
+}
+
+.sendText {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: rgb(92, 92, 92);
+  margin: 0;
+}
+
+.containerFeaturesCon {
+  max-width: 1192px;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.previewImg {
+  position: relative;
+  background-color: rgb(186, 185, 181);
+  border-radius: 44px;
+}
+
+.womenLaptop {
+  border-radius: 44px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-style: none;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.invoiceImg {
+  display: none;
+}
+
+.remindImg {
+  display: none;
+}
+
+.invoice {
+  position: absolute;
+  top: 115px;
+  right: 73px;
+  width: 429px;
+  height: 73px;
+  border-radius: 17px;
+  padding: 16px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(243, 244, 245);
+  box-shadow: rgba(33, 33, 33, 0.1) 7px 7px 20px 0;
+  transform: scale(1);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) 0.85s;
+  opacity: 0;
+  animation: 0.3s ease-in 0.8s 1 normal forwards running fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.invoiceCon {
+  width: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.invoiceInfo {
+  display: block;
+}
+
+.invoiceTitle {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 0 4px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 700;
+  color: rgb(33, 33, 33);
+}
+
+.invoiceText {
+  font-size: 12px;
+  line-height: 15px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  color: rgb(92, 92, 92);
+  margin: 0;
+}
+
+.invoiceSpan {
+  color: rgb(33, 33, 33);
+}
+
+.invoiceArrow {
+  height: 8px;
+  width: auto;
+  border-style: none;
+}
+
+.invoiceButton {
+  width: 103px;
+  height: 32px;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 15px;
+  border: 0.5px solid rgb(210, 210, 210);
+  background-color: transparent;
+  font-family: Gilroy, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(33, 33, 33);
+  -webkit-appearance: button;
+  text-transform: none;
+  overflow: visible;
+  margin: 0;
+}
+
+.remind {
+  position: absolute;
+  top: 239px;
+  right: -21px;
+  width: 205px;
+  height: 45px;
+  padding: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: rgb(243, 244, 245);
+  border-radius: 7px;
+  box-shadow: rgba(33, 33, 33, 0.1) 5px 3px 20px 0;
+  transform: scale(1);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) 1.35s;
+  opacity: 0;
+  animation: 0.35s ease-in 1.3s 1 normal forwards running fadeIn;
+}
+
+.remindInfo {
+  gap: 7.7px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.remindBell {
+  width: 18px;
+  height: 20px;
+  border-style: none;
+}
+
+.remindTitle {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  color: rgb(33, 33, 33);
+  margin: 0;
+}
+
+.remindCheck {
+  width: 17px;
+  height: 17px;
+  border-style: none;
+}
+
+.mobileLine1 {
+  display: none;
+}
+
+.mobileLine2 {
+  display: none;
+}
+
+.line1 {
+  top: 191px;
+  right: 345px;
+  width: auto;
+  height: auto;
+  display: block;
+  position: absolute;
+  fill: none;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+  animation-duration: 1300ms;
+  animation-delay: 1300ms;
+  animation-name: fadeIn;
+}
+
+.line2 {
+  top: 167px;
+  right: 127px;
+  width: auto;
+  height: auto;
+  display: block;
+  position: absolute;
+  fill: none;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+  animation-duration: 1000ms;
+  animation-delay: 1700ms;
+  animation-name: fadeIn;
+}
+
+@media screen and (max-width: 1920px) {
+
+  .sendCon {
+    max-width: 1312px;
+  }
+  .sendInfo {
+    gap: 66px;
+    margin-bottom: 28px;
+  }
+
+  .sendTitle {
+    font-size: 46px;
+    line-height: 57px;
+    flex: 0 0 643px;
+    padding: 0;
+    margin: 0 0 16px;
+  }
+
+  .sendText {
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 602px;
+  }
+
+  .containerFeaturesCon {
+    max-width: 1312px;
+  }
+
+  .invoiceImg {
+    display: none;
+  }
+
+  .remindImg {
+    display: none;
+  }
+
+  .invoice {
+    top: 134px;
+  }
+
+  .remind {
+    top: 258px;
+  }
+
+  .mobileLine1 {
+    display: none;
+  }
+
+  .mobileLine2 {
+    display: none;
+  }
+
+  .line1 {
+    top: 211px;
+    right: 383px;
+  }
+
+  .line2 {
+    top: 185px;
+    right: 127px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .sendCon {
+    max-width: 1192px;
+  }
+  .sendInfo {
+    gap: 88px;
+    margin-bottom: 40px;
+  }
+
+  .sendTitle {
+    font-size: 38px;
+    line-height: 49px;
+    flex: 0 0 540px;
+    max-width: 100%;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 16px;
+  }
+
+  .sendText {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .containerFeaturesCon {
+    max-width: 1192px;
+  }
+
+  .invoiceImg {
+    display: none;
+  }
+
+  .remindImg {
+    display: none;
+  }
+
+  .invoice {
+    top: 115px;
+    right: 73px;
+  }
+
+  .remind {
+    top: 239px;
+    right: -21px;
+  }
+
+  .mobileLine1 {
+    display: none;
+  }
+
+  .mobileLine2 {
+    display: none;
+  }
+
+  .line1 {
+    top: 191px;
+    right: 345px;
+  }
+
+  .line2 {
+    top: 167px;
+    right: 127px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+
+  .sendCon {
+    max-width: 1032px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .sendInfo {
+    gap: 48px;
+    margin-bottom: 40px;
+  }
+
+  .sendTitle {
+    font-size: 38px;
+    line-height: 49px;
+    flex: 0 0 540px;
+    align-self: flex-start;
+    max-width: 100%;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 16px;
+  }
+
+  .sendText {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .containerFeaturesCon {
+    max-width: 1032px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .invoiceImg {
+    display: none;
+  }
+
+  .remindImg {
+    display: none;
+  }
+
+  .invoice {
+    top: 68px;
+    right: 25px;
+  }
+
+  .invoiceTitle {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 4px;
+  }
+
+  .invoiceText {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0;
+  }
+  .invoiceArrow {
+    height: 8px;
+  }
+
+  .invoiceButton {
+    width: 103px;
+    height: 32px;
+    border-radius: 12px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .remind {
+    top: 191px;
+    right: -23px;
+    padding: 13px;
+  }
+
+  .remindInfo {
+    gap: 7.7px;
+  }
+
+  .remindBell {
+    width: 18px;
+    height: 20px;
+  }
+
+  .remindTitle {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .remindCheck {
+    width: 17px;
+    height: 17px;
+  }
+
+  .mobileLine1 {
+    display: none;
+  }
+
+  .mobileLine2 {
+    display: none;
+  }
+
+  .line1 {
+    top: 143px;
+    right: 294px;
+  }
+
+  .line2 {
+    top: 118px;
+    right: 87px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .sendCon {
+    max-width: 1024px;
+    padding: 0 40px;
+  }
+
+  .sendInfo {
+    gap: 48px;
+    margin-bottom: 40px;
+  }
+
+  .sendTitle {
+    font-size: 35px;
+    line-height: 44px;
+    flex: 0 0 490px;
+    margin: 0 0 16px;
+  }
+
+  .containerFeaturesCon {
+    max-width: 1024px;
+    padding: 0 40px;
+  }
+
+  .invoiceImg {
+    display: none;
+  }
+
+  .remindImg {
+    display: none;
+  }
+
+  .invoice {
+    top: 46px;
+    right: 41px;
+    width: 392px;
+    height: 66px;
+    border-radius: 15px;
+    padding: 15px;
+  }
+
+
+  .invoiceTitle {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 4px;
+  }
+
+  .invoiceText {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  .invoiceArrow {
+    height: 7px;
+  }
+
+  .invoiceButton {
+    width: 94px;
+    height: 29px;
+    border-radius: 11px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .remind {
+    top: 162px;
+    right: -26px;
+    width: 187px;
+    height: 41px;
+  }
+
+  .remindBell {
+    width: 16px;
+    height: 18px;
+  }
+
+  .remindTitle {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .remindCheck {
+    width: 15px;
+    height: 15px;
+  }
+
+  .mobileLine1 {
+    display: none;
+  }
+
+  .mobileLine2 {
+    display: none;
+  }
+
+  .line1 {
+    top: 115px;
+    right: 269px;
+  }
+
+  .line2 {
+    top: 90px;
+    right: 87px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .sendCon {
+    max-width: 768px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+
+  .sendInfo {
+    gap: 54px;
+    margin-bottom: 32px;
+  }
+
+  .sendTitle {
+    flex: 0 0 320px;
+    font-size: 35px;
+    line-height: 42px;
+    align-self: flex-start;
+    margin: 0 0 16px;
+  }
+
+  .containerFeaturesCon {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .invoiceImg {
+    display: block;
+    width: 53.3%;
+    top: 5%;
+    right: 0;
+    position: absolute;
+    height: auto;
+    transform: scale(1);
+    transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) 0.85s;
+    opacity: 0;
+    fill: none;
+    visibility: hidden;
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+    animation-duration: 1300ms;
+    animation-delay: 1300ms;
+    animation: 0.3s ease-in 1.5s 1 normal forwards running fadeIn;
+  }
+
+  .remindImg {
+    display: block;
+    width: 26.5%;
+    top: 35.5%;
+    right: -2%;
+    position: absolute;
+    height: auto;
+    transform: scale(1);
+    transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) 0.85s;
+    opacity: 0;
+    fill: none;
+    visibility: hidden;
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+    animation: 0.8s ease-in 2s 1 normal forwards running fadeIn;
+  }
+
+  .invoice {
+    display: none;
+  }
+
+  .remind {
+    display: none;
+  }
+
+  .mobileLine1 {
+    display: none;
+  }
+
+  .mobileLine2 {
+    display: none;
+  }
+
+  .line1 {
+    display: block;
+    width: 14.1%;
+    height: auto;
+    top: 20%;
+    right: 30%;
+  }
+
+  .line2 {
+    display: block;
+    top: 18%;
+    right: 15%;
+    width: 13.2%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 376px) {
+
+  .sendCon {
+    max-width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+
+  .sendInfo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 77px;
+    gap: 0;
+  }
+
+  .sendTitle {
+    font-size: 32px;
+    line-height: 38px;
+    flex: none;
+    align-self: center;
+    max-width: 250px;
+    text-align: center;
+    margin: 0 0 16px;
+  }
+
+  .containerFeaturesCon {
+    max-width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+
+  .womenLaptop {
+    height: 250px;
+  }
+
+  .invoiceImg {
+    position: absolute;
+    top: -15%;
+    right: -4%;
+    width: 86%;
+    height: auto;
+    transform: scale(1);
+    transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) 0.85s;
+    opacity: 0;
+    fill: none;
+    visibility: hidden;
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+    animation-duration: 1300ms;
+    animation-delay: 1300ms;
+    animation: 0.3s ease-in 1.5s 1 normal forwards running fadeIn;
+  }
+
+  .remindImg {
+    position: absolute;
+    top: 20.5%;
+    right: -5.5%;
+    width: 42.6%;
+    height: auto;
+    transform: scale(1);
+    transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) 1.35s;
+    opacity: 0;
+    fill: none;
+    visibility: hidden;
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+    animation: 0.8s ease-in 2s 1 normal forwards running fadeIn;
+  }
+
+  .invoice {
+    display: none;
+  }
+
+  .remind {
+    display: none;
+  }
+
+  .mobileLine1 {
+    display: block;
+    position: absolute;
+    top: -4%;
+    right: 32%;
+    width: 21%;
+    height: auto;
+    fill: none;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+    animation-duration: 1300ms;
+    animation-delay: 1300ms;
+    animation-name: fadeIn;
+  }
+
+  .mobileLine2 {
+    display: block;
+    position: absolute;
+    top: 3.2%;
+    right: 13%;
+    width: 19.6%;
+    height: auto;
+    fill: none;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+    animation-duration: 1300ms;
+    animation-delay: 1700ms;
+    animation-name: fadeIn;
+  }
+
+  .line1 {
+    display: none;
+  }
+
+  .line2 {
+    display: none;
+  }
+}
