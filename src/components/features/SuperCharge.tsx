@@ -83,7 +83,7 @@ export const SuperCharge = () => {
                                             display: "grid"
                                         }}
                                         onAnimationEnd={() => {
-                                            if (index === possibilities.length - 1) {
+                                            if (index ===possibilities.length - 1) {
                                                 setAnimationComplete(true);
                                             }
                                         }}

@@ -8,6 +8,10 @@ import {StyledTools} from "./StyledTools";
 import {Breeze} from "./Breeze";
 import {Sounds} from "./Sounds";
 import {Send} from "./Send";
+import {Make} from "./Make";
+import {Get} from "./Get";
+import {Gallery} from "./Gallery";
+import {Ready} from "./Ready";
 
 import styles from "../../styles/features.module.scss";
 import dec1 from "../../assets/img/dec1.svg";
@@ -83,13 +87,10 @@ export const Features = () => {
                 <Breeze/>
                 <Sounds/>
                 <Send/>
-                <section></section>
-                <section></section>
-                <section></section>
-                <section></section>
-                <section></section>
-                <section></section>
-                <section></section>
+                <Make/>
+                <Get/>
+                <Gallery/>
+                <Ready/>
                 <section></section>
                 <Footer/>
             </main>

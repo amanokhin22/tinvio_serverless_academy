@@ -1,0 +1,481 @@
+//desktop view
+.styledMake {
+  padding: 288px 0;
+  margin-bottom: 80px;
+  position: relative;
+  display: block;
+}
+
+.containerFeaturesCon {
+  max-width: 1192px;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.makeCon {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+}
+
+.makeInfo {
+  display: block;
+}
+
+.makeTitle {
+  font-size: 38px;
+  line-height: 49px;
+  max-width: 402px;
+  margin: 0 0 16px;
+  text-align: left;
+  position: relative;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(33, 33, 33);
+  padding: 0;
+}
+
+.makeTitle::before {
+  top: -440px;
+  right: -540px;
+  content: "";
+  width: 569px;
+  height: 569px;
+  position: absolute;
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgb(218, 218, 218) 0%, rgb(250, 250, 250) 100%);
+  opacity: 0.15;
+  border-radius: 53px;
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+
+.makeText {
+  max-width: 480px;
+  font-size: 16px;
+  line-height: 23px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  color: rgb(92, 92, 92);
+  margin: 0 0 24px;
+  position: relative;
+}
+
+.makeFirst {
+  left: -60px;
+  position: absolute;
+  top: -176px;
+  margin: 0;
+  width: 560.03px;
+  height: 560.03px;
+  padding: 35px;
+  background: rgba(251, 36, 43, 0.6);
+  border-radius: 52.1364px;
+  transform: rotate(-45deg);
+}
+
+.makeSecond {
+  width: 490.37px;
+  height: 490.37px;
+  background: rgb(251, 36, 43);
+  border-radius: 52.1364px;
+  position: relative;
+}
+
+.makeStars {
+  top: -137px;
+  left: 325px;
+  width: 80px;
+  height: 76.6px;
+  position: absolute;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+.makeStars > div {
+  position: relative;
+  height: inherit;
+  width: inherit;
+}
+
+.styledSpan {
+  display: block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.styledImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0;
+  height: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.leftImgWrap {
+  top: -107px;
+  left: 98px;
+  position: absolute;
+  transform: rotate(45deg);
+  z-index: 2;
+}
+
+.leftImg {
+  width: 294px;
+  height: 490px;
+  position: relative;
+}
+
+.RightImgWrap {
+  top: 157px;
+  right: 53px;
+  position: absolute;
+  transform: rotate(45deg);
+  z-index: 2;
+}
+
+.RightImg {
+  width: 294px;
+  height: 490px;
+  position: relative;
+}
+
+.dots {
+  left: 30px;
+  bottom: -36px;
+  transform: rotate(45deg);
+  width: 326px;
+  height: 326px;
+  position: absolute;
+}
+
+.dots > div {
+  position: relative;
+  height: inherit;
+  width: inherit;
+}
+
+@media screen and (max-width: 1920px) {
+
+  .containerFeaturesCon {
+    max-width: 1312px;
+  }
+
+  .makeTitle {
+    font-size: 44px;
+    line-height: 54px;
+    max-width: 460px;
+
+  }
+  .makeTitle::before {
+    top: -440px;
+    right: -380px;
+  }
+
+  .makeText {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .makeFirst {
+    left: 14px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+
+  .containerFeaturesCon {
+    max-width: 1192px;
+  }
+
+  .makeTitle {
+    font-size: 38px;
+    line-height: 49px;
+    max-width: 402px;
+
+  }
+  .makeTitle::before {
+    top: -440px;
+    right: -540px;
+  }
+
+  .makeText {
+    max-width: 480px;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 40px;
+  }
+  .makeFirst {
+    left: -60px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+
+  .containerFeaturesCon {
+    max-width: 1032px;
+  }
+
+
+  .makeTitle {
+    font-size: 38px;
+    line-height: 49px;
+    max-width: 402px;
+    margin: 0 0 16px;
+    text-align: left;
+  }
+  .makeTitle::before {
+    top: -440px;
+    right: -540px;
+  }
+
+  .makeText {
+    max-width: 440px;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 40px;
+  }
+  .makeFirst {
+    left: -145px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .containerFeaturesCon {
+    max-width: 1024px;
+    padding: 0 40px;
+  }
+
+  .makeTitle {
+    font-size: 36px;
+    line-height: 44px;
+    max-width: 344px;
+    margin: 0 0 16px;
+    text-align: left;
+    position: relative;
+  }
+  .makeTitle::before {
+    top: -350px;
+    right: -330px;
+  }
+
+  .makeText {
+    max-width: 344px;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .makeFirst {
+    left: -75px;
+    top: -176px;
+  }
+
+  .makeStars {
+    top: -137px;
+    left: 325px;
+  }
+  .leftImgWrap {
+    top: -107px;
+    left: 98px;
+  }
+
+  .RightImgWrap {
+    top: 157px;
+    right: 53px;
+  }
+
+  .dots {
+    left: 30px;
+    bottom: -36px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .styledMake {
+    padding: 0;
+    margin-bottom: 250px;
+  }
+
+  .containerFeaturesCon {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .makeCon {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+  }
+
+  .makeTitle {
+    font-size: 36px;
+    line-height: 42px;
+    max-width: 384px;
+    margin: 0 auto 12px;
+    text-align: center;
+  }
+
+  .makeTitle::before {
+    top: -240px;
+    right: -500px;
+  }
+
+  .makeText {
+    max-width: 100%;
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: 40px;
+  }
+
+  .makeFirst {
+    left: 0;
+    position: static;
+    top: 0;
+    margin-top: 150px;
+
+  }
+
+  .makeStars {
+    top: -185px;
+    left: 289px;
+  }
+
+  .leftImgWrap {
+    top: -152px;
+    left: 33px;
+  }
+
+  .leftImg {
+    width: 330px;
+    height: 550px;
+  }
+
+  .RightImgWrap {
+    top: 149px;
+    right: 64px;
+  }
+
+  .RightImg {
+    width: 330px;
+    height: 550px;
+  }
+
+  .dots {
+    left: -20px;
+    bottom: 33px;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .styledMake {
+    padding: 0;
+    margin-bottom: 200px;
+  }
+
+  .containerFeaturesCon {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .makeCon {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  .makeTitle {
+    margin: 0 auto 12px;
+    position: relative;
+    max-width: 343px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .makeTitle::before {
+    display: none;
+  }
+
+  .makeText {
+    max-width: 100%;
+    font-size: 15px;
+    line-height: 23px;
+    margin: 0 0 24px;
+  }
+
+  .makeFirst {
+    left: 0;
+    position: static;
+    top: 0;
+    margin-top: 80px;
+    width: 406px;
+    height: 406px;
+    padding: 25px;
+  }
+
+  .makeSecond {
+    width: 355px;
+    height: 355px;
+  }
+
+  .makeStars {
+    top: -130px;
+    left: 205px;
+    width: 58px;
+    height: 56.6px;
+  }
+
+  .leftImgWrap {
+    top: -109px;
+    left: 12px;
+  }
+
+  .leftImg {
+    width: 246px;
+    height: 410px;
+  }
+
+  .RightImgWrap {
+    top: 94px;
+    right: 43px;
+  }
+
+  .RightImg {
+    width: 246px;
+    height: 410px;
+  }
+
+  .dots {
+    left: -20px;
+    bottom: 33px;
+    transform: none;
+    width: 238px;
+    height: 238px;
+  }
+}

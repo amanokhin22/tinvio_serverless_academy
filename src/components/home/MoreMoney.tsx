@@ -89,7 +89,7 @@ export const MoreMoney = () => {
                         ))}
                     </ul>
                     <div>
-                        <a className={styles.moreMoneyBottomButton} href="/src/components/features/Features">More
+                        <a className={styles.moreMoneyBottomButton} href="/Features">More
                             Features</a>
                     </div>
                 </div>
