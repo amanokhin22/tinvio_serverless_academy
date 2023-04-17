@@ -1,4 +1,4 @@
-import styles from "../../styles/make.module.scss";
+import styles from "../../styles/feature/make.module.scss";
 
 import makeDec1 from "../../assets/img/makeDec1.svg";
 import makeDec2 from "../../assets/img/makeDec2.png";

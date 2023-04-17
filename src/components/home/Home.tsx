@@ -9,7 +9,7 @@ import {SmileWork} from "./SmileWork";
 import {FormFilling} from "./FormFilling";
 import {Footer} from "../Footer";
 
-import styles from "../../styles/home.module.scss";
+import styles from "../../styles/home/home.module.scss";
 
 import previewApp from "../../assets/img/previewApp.png";
 import phone2x from "../../assets/img/phone2x.png";

@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-import styles from "../../styles/gallery.module.scss";
+import styles from "../../styles/feature/gallery.module.scss";
 
 import galleryImage1 from "../../assets/img/galleryImage1.jpg";
 import galleryImage2 from "../../assets/img/galleryImage2.jpg";
@@ -69,7 +69,7 @@ export const Gallery = () => {
                                             }
                                         }}
                                     >
-                                        <div className={styles.imgDiv}>
+                                        <div className={index === 0 ? image.className : styles.imgDiv}>
                                     <span className={styles.imgSpan}>
                                         <img src={image.image} alt="images"
                                              className={index === 0 ? image.className : styles.img}/>

@@ -3,7 +3,7 @@ import React, {useRef} from "react";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Swiper as SwiperType, Navigation, Pagination, Scrollbar, A11y} from "swiper";
 
-import styles from "../../styles/whyChoose.module.scss";
+import styles from "../../styles/home/whyChoose.module.scss";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";

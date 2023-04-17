@@ -1,4 +1,4 @@
-import styles from "../../styles/breeze.module.scss";
+import styles from "../../styles/feature/breeze.module.scss";
 
 import hiddenDotsBreeze from "../../assets/img/hiddenDotsBreeze.svg";
 import dotsBreeze1 from "../../assets/img/dotsBreeze1.png";

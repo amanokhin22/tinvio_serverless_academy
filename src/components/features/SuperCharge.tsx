@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-import styles from "../../styles/superCharge.module.scss";
+import styles from "../../styles/feature/superCharge.module.scss";
 import ariaHiddenSC from "../../assets/img/ariaHiddenSC.svg";
 import fdots from "../../assets/img/fdots.png";
 import superChApp from "../../assets/img/superChApp.jpg";

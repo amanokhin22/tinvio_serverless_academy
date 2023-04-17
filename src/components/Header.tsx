@@ -4,7 +4,7 @@ import {useEffect, useState} from "react";
 import {LanguagePicker} from "./home/LanguagePicker";
 import {SocialMedia} from "./home/SocialMedia";
 
-import styles from "../styles/home.module.scss";
+import styles from "../styles/home/home.module.scss";
 import littleOctopus from "../assets/img/littleOctopus.svg";
 import tinvio from "../assets/img/tinvio.svg";
 import close from "../assets/img/close.svg";

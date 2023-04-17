@@ -55,7 +55,7 @@
 }
 
 .flexConInfo::before {
-  content: url('../assets/img/soundsDec1280.svg');
+  content: url('../../assets/img/soundsDec1280.svg');
   position: absolute;
   bottom: -50px;
   right: -50px;
@@ -296,7 +296,7 @@
   }
 
   .flexConInfo::before {
-    content: url('../assets/img/soundsDec1024.svg');
+    content: url('../../assets/img/soundsDec1024.svg');
     position: absolute;
     bottom: -60px;
     right: 0;
@@ -351,7 +351,7 @@
   }
 
   .flexConInfo::before {
-    content: url('../assets/img/soundsDec768.svg');
+    content: url('../../assets/img/soundsDec768.svg');
     bottom: -60px;
     right: 0;
   }
@@ -400,7 +400,7 @@
     padding: 48px 0;
   }
   .flexConInfo::before {
-    content: url('../assets/img/soundsDec375.svg');
+    content: url('../../assets/img/soundsDec375.svg');
     bottom: -40px;
     right: 0;
   }

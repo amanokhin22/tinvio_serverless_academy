@@ -128,7 +128,7 @@ body {
   position: absolute;
   z-index: 1;
   display: block;
-  background: url("../assets/img/dots-little.png") 0 0% / contain no-repeat;
+  background: url("../../assets/img/dots-little.png") 0 0% / contain no-repeat;
 }
 
 .dotsBottom {
@@ -140,7 +140,7 @@ body {
   position: absolute;
   z-index: 1;
   display: block;
-  background: url("../assets/img/dots-big.png") no-repeat;
+  background: url("../../assets/img/dots-big.png") no-repeat;
 }
 
 .greySquare {
@@ -516,7 +516,7 @@ body {
 
 .previewSmile {
   margin-left: 8px;
-  background: url(../assets/img/smile.svg) no-repeat;
+  background: url(../../assets/img/smile.svg) no-repeat;
   width: 16px;
   height: 16px;
 }
@@ -1301,7 +1301,7 @@ body {
     height: 146px;
     position: absolute;
     z-index: 1;
-    background: url("../assets/img/dots-little.png") 0 0% / contain no-repeat;
+    background: url("../../assets/img/dots-little.png") 0 0% / contain no-repeat;
   }
   .dotsBottom {
     top: unset;
@@ -1311,7 +1311,7 @@ body {
     left: 269px;
     position: absolute;
     z-index: 1;
-    background: url("../assets/img/dots-big.png") no-repeat;
+    background: url("../../assets/img/dots-big.png") no-repeat;
   }
   .header {
     position: unset;

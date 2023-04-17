@@ -1,7 +1,7 @@
 import {useState} from "react";
 import {ModalForm} from "./ModalForm";
 
-import styles from "../../styles/ready.module.scss";
+import styles from "../../styles/feature/ready.module.scss";
 
 import readyHidden from "../../assets/img/readyHidden.svg";
 import readyHidden1 from "../../assets/img/readyHidden1.svg";

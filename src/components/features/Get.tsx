@@ -1,4 +1,4 @@
-import styles from "../../styles/get.module.scss";
+import styles from "../../styles/feature/get.module.scss";
 
 import getHidden from "../../assets/img/getHidden.svg";
 import getDec1 from "../../assets/img/getDec1.svg";
@@ -31,14 +31,14 @@ export const Get = () => {
                             <div className={styles.getLeftImgWrap}>
                                 <div className={styles.getLeftImg}>
                                     <span className={styles.aloneSpan}>
-                                        <img src={getDec2} alt="getDec2" className={styles.aloneImage}/>
+                                        <img src={getDec2} width={288} height={455} alt="getDec2" className={styles.aloneImage}/>
                                     </span>
                                 </div>
                             </div>
                             <div className={styles.rightImgWrap}>
                                 <div className={styles.rightImg}>
                                     <span className={styles.aloneSpan}>
-                                        <img src={getDec3} alt="getDec3" className={styles.aloneImage}/>
+                                        <img src={getDec3} width={498} height={641} alt="getDec3" className={styles.aloneImage}/>
                                     </span>
                                 </div>
                             </div>

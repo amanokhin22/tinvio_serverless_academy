@@ -1,4 +1,4 @@
-import styles from "../../styles/modalForm.module.scss";
+import styles from "../../styles/feature/modalForm.module.scss";
 import close from "../../assets/img/close.svg";
 import flagcdn from "../../assets/img/flagcdn.png";
 import hands from "../../assets/img/hands.svg";

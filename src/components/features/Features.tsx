@@ -12,8 +12,9 @@ import {Make} from "./Make";
 import {Get} from "./Get";
 import {Gallery} from "./Gallery";
 import {Ready} from "./Ready";
+import {Faq} from "./Faq";
 
-import styles from "../../styles/features.module.scss";
+import styles from "../../styles/feature/features.module.scss";
 import dec1 from "../../assets/img/dec1.svg";
 import dec2 from "../../assets/img/dec2.svg";
 import man from "../../assets/img/man.jpg";
@@ -91,7 +92,7 @@ export const Features = () => {
                 <Get/>
                 <Gallery/>
                 <Ready/>
-                <section></section>
+                <Faq/>
                 <Footer/>
             </main>
         </div>

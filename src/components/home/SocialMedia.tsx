@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 
-import styles from "../../styles/socialMedia.module.scss";
+import styles from "../../styles/home/socialMedia.module.scss";
 
 import linkedin from "../../assets/img/linkedin.svg";
 import instagram from "../../assets/img/instagram.svg";

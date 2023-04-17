@@ -1,4 +1,4 @@
-import styles from "../../styles/smileWork.module.scss";
+import styles from "../../styles/home/smileWork.module.scss";
 
 import smileReworkRightDots from "../../assets/img/smileReworkRightDots.png";
 import smileReworkLeftDots from "../../assets/img/smileReworkLeftDots.png";

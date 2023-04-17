@@ -1,5 +1,5 @@
 import React, {memo, useEffect, useRef, useState} from "react";
-import styles from "../../styles/languagesPicker.module.scss";
+import styles from "../../styles/home/languagesPicker.module.scss";
 
 import arrowWrapper from "../../assets/img/arrowWrapper.svg";
 import gbflag from "../../assets/img/gbflag.svg";

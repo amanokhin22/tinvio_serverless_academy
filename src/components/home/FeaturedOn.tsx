@@ -1,4 +1,4 @@
-import styles from "../../styles/featuredOn.module.scss";
+import styles from "../../styles/home/featuredOn.module.scss";
 
 import featuredOnAriaHidden from "../../assets/img/featuredOnAriaHidden.svg";
 import featuredOnDots from "../../assets/img/featuredOnDots.png";

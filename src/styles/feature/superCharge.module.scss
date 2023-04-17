@@ -79,7 +79,7 @@
 }
 
 .superChargeFullCon::after {
-  content: url('../assets/img/dec1280.svg');
+  content: url('../../assets/img/dec1280.svg');
   position: absolute;
   right: -50px;
   bottom: -53px;
@@ -489,7 +489,7 @@
   }
 
   .superChargeFullCon::after {
-    content: url('../assets/img/dec1024.svg');
+    content: url('../../assets/img/dec1024.svg');
     right: 0;
     bottom: -91px;
   }
@@ -529,7 +529,7 @@
     height: 653px;
   }
   .superChargeFullCon::after {
-    content: url('../assets/img/dec768.svg');
+    content: url('../../assets/img/dec768.svg');
     right: 0;
     bottom: -85px;
   }
@@ -616,7 +616,7 @@
     display: block;
   }
   .superChargeFlexConInfo::after {
-    content: url('../assets/img/dec375.svg');
+    content: url('../../assets/img/dec375.svg');
     right: 2px;
     bottom: -60px;
   }

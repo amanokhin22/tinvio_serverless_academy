@@ -1,4 +1,4 @@
-import styles from "../../styles/styledTools.module.scss";
+import styles from "../../styles/feature/styledTools.module.scss";
 
 import manageHidden from "../../assets/img/manageHidden.svg";
 import manage from "../../assets/img/manage.png";

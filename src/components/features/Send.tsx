@@ -1,4 +1,4 @@
-import styles from "../../styles/send.module.scss";
+import styles from "../../styles/feature/send.module.scss";
 
 import womenLaptop from "../../assets/img/womenLaptop.jpg";
 import sendArrow from "../../assets/img/sendArrow.svg";

@@ -1,4 +1,4 @@
-import styles from "../../styles/moreMoney.module.scss";
+import styles from "../../styles/home/moreMoney.module.scss";
 
 import leftMock1 from "../../assets/img/leftMock1.png";
 import rightMock1 from "../../assets/img/rightMock1.png";

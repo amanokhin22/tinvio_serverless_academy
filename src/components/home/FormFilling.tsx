@@ -1,4 +1,4 @@
-import styles from "../../styles/formFilling.module.scss";
+import styles from "../../styles/home/formFilling.module.scss";
 
 import bigMap from "../../assets/img/bigMap.png";
 import flagcdn from "../../assets/img/flagcdn.png";

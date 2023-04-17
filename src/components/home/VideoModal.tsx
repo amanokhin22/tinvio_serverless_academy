@@ -1,4 +1,4 @@
-import styles from "../../styles/videoModal.module.scss";
+import styles from "../../styles/home/videoModal.module.scss";
 import React, {FC} from "react";
 
 export interface VideoModalTypes {

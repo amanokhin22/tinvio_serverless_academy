@@ -1,4 +1,4 @@
-import styles from "../../styles/sounds.module.scss";
+import styles from "../../styles/feature/sounds.module.scss";
 
 import soundHiddenImage from "../../assets/img/soundHiddenImage.svg";
 import soundsDots from "../../assets/img/soundsDots.png";
