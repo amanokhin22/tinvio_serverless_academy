@@ -11,11 +11,20 @@ import close from "../assets/img/close.svg";
 import burgerMenu from "../assets/img/burgerMenu.svg";
 import mobileDotsLeft from "../assets/img/mobileDotsLeft.png";
 import mobileDotsRight from "../assets/img/mobileDotsRight.png";
+import {ModalForm} from "./features/ModalForm";
 
 export const Header = () => {
 
     const [burgerOpened, setBurgerOpened] = useState(false);
     const [colorAfterScroll, setColorAfterScroll] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
+
+    const handleOpenModal = () => {
+        setIsOpen(true);
+    }
+    const handleCloseModal = () => {
+        setIsOpen(false);
+    }
 
     useEffect(() => {
         const changeColorBtn = () => {
@@ -32,6 +41,9 @@ export const Header = () => {
     return (
         <header
             className={styles.header + " " + (burgerOpened ? styles.headerBgBurger : "") + " " + (colorAfterScroll ? styles.headerBg : "")}>
+            {
+                isOpen ? <ModalForm isOpen={isOpen} onClose={handleCloseModal}/> : ""
+            }
             <div className={styles.container}>
                 <div className={styles.navbar}>
                     <div className={styles.leftWrapper}>
@@ -61,13 +73,14 @@ export const Header = () => {
                                 <Link className={styles.itemLink} to={'/Features'}> Features</Link>
                             </li>
                             <li className={styles.itemNav}>
-                                <Link className={styles.itemLink} to={'/company'}>Company</Link>
+                                <Link className={styles.itemLink} to={'/Company'}>Company</Link>
                             </li>
                         </ul>
                         <div className={styles.headerButtonWrapper}>
                             <button
-                                className={colorAfterScroll ? styles.getStartedButton + ' ' + styles.getStartedButtonBg : styles.getStartedButton}>Get
-                                Started
+                                onClick={handleOpenModal}
+                                className={colorAfterScroll ? styles.getStartedButton + ' ' + styles.getStartedButtonBg : styles.getStartedButton}>
+                                Get Started
                             </button>
                         </div>
                         <div

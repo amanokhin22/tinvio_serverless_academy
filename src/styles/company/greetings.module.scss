@@ -1,0 +1,674 @@
+
+@media screen and (max-width: 1920px) {
+  .greetingsWrapper {
+    margin: 152px 0 140px;
+  }
+
+  .containerFeaturesCon {
+    max-width: 1312px;
+  }
+
+  .title {
+    font-size: 60px;
+    line-height: 74px;
+  }
+
+  .titleDec {
+    transform: scale(1.60338);
+    opacity: 0.396621;
+  }
+
+  .accent {
+    font-size: 60px;
+    line-height: 74px;
+  }
+
+  .subTitle {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .greetingsMain {
+    gap: 174px;
+  }
+
+  .greetingsButton {
+    font-size: 18px;
+    line-height: 22px;
+    width: 210px;
+    height: 56px;
+    padding: 16px 0;
+    border-radius: 18px;
+  }
+
+  .leftBotSquare2 {
+    display: none;
+  }
+
+  .greetingsInfo::after {
+    left: -850px;
+  }
+}
+//desktop view
+.greetingsWrapper {
+  margin: 142px 0 140px;
+  display: block;
+}
+
+.containerFeaturesCon {
+  max-width: 1192px;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.titleDiv {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.title {
+  position: relative;
+  font-size: 56px;
+  line-height: 66px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(33, 33, 33);
+  text-align: center;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.titleDec {
+  transform: scale(1);
+  opacity: 1;
+  top: -25px;
+  left: -66px;
+  position: absolute;
+}
+
+.accent {
+  color: #ff474d;
+  font-size: 56px;
+  line-height: 66px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+}
+
+.subTitle {
+  margin: 0 0 40px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgb(92, 92, 92);
+  text-align: center;
+  padding: 0;
+}
+
+.greetingsMain {
+  gap: 100px;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.greetingsInfo {
+  flex: 0 0 736px;
+  order: 0;
+  position: relative;
+  padding: 48px 0;
+}
+
+.greetingsText {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: rgb(92, 92, 92);
+  margin: 0 0 30px;
+}
+
+.greetingsButton {
+  background-color: #fff;
+  margin: 0;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 700;
+  width: 188px;
+  height: 48px;
+  text-align: center;
+  padding: 14px 0;
+  border: none;
+  border-radius: 16px;
+  color: #212121;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  -webkit-appearance: button;
+  text-transform: none;
+  overflow: visible;
+}
+
+.greetingsButton:hover {
+  background-color: rgb(224, 224, 225);;
+}
+
+.contactImage {
+  display: inline-flex;
+  margin-right: 8px;
+  max-width: 16px;
+  border-style: none;
+}
+
+.leftTopSquare {
+  left: -240px;
+  top: -280px;
+  position: absolute;
+  width: 251px;
+  height: 251px;
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgb(218, 218, 218) 0%, rgb(250, 250, 250) 100%);
+  transform: rotate(45deg);
+  border-radius: 23px;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+.leftBotSquare {
+  top: -25px;
+  left: -336px;
+  position: absolute;
+  width: 461px;
+  height: 461px;
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgb(218, 218, 218) 0%, rgb(250, 250, 250) 100%);
+  transform: rotate(45deg);
+  border-radius: 43px;
+  opacity: 0.15;
+  z-index: -2;
+}
+
+.leftBotSquare2 {
+  display: none;
+}
+
+.greetingsInfo::after {
+  left: -520px;
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  background: rgb(247, 247, 247);
+  border-top-right-radius: 48px;
+  border-bottom-right-radius: 48px;
+  z-index: -1;
+}
+
+.phoneWrapper {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.phoneWrapper::before {
+  bottom: -61px;
+  right: -45px;
+  content: url("../../assets/img/phDotsB768.svg");
+  position: absolute;
+  z-index: -1;
+}
+
+.greetingsPhone {
+  height: 500px;
+  display: block;
+  margin-left: 0;
+  width: auto;
+  border-style: none;
+  aspect-ratio: auto 398 / 658;
+}
+
+.dec1 {
+  position: absolute;
+  inset: 0;
+}
+
+.dec1::before {
+  top: -4px;
+  left: -35px;
+  content: url('../../assets/img/phDotsT.svg');
+  position: absolute;
+  z-index: -1;
+}
+
+.rSquare {
+  top: -120px;
+  right: -459px;
+  width: 679px;
+  height: 679px;
+  background: radial-gradient(95.51% 95.51% at 50% 50%, rgb(218, 218, 218) 0%, rgb(250, 250, 250) 100%);
+  transform: rotate(45deg);
+  border-radius: 63px;
+  opacity: 0.15;
+  position: absolute;
+  z-index: -1;
+}
+
+.phoneWrapper::after {
+  display: block;
+  content: url('../../assets/img/phDec1280.svg');
+  top: 110px;
+  right: -80px;
+  position: absolute;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1440px) {
+  .greetingsWrapper {
+    margin: 142px 0 140px;
+  }
+
+  .containerFeaturesCon {
+    max-width: 1192px;
+  }
+
+  .title {
+    font-size: 56px;
+    line-height: 66px;
+  }
+
+  .accent {
+    font-size: 56px;
+    line-height: 66px;
+  }
+
+  .subTitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .greetingsMain {
+    gap: 100px;
+  }
+
+  .greetingsButton {
+    font-size: 16px;
+    line-height: 20px;
+    width: 188px;
+    height: 48px;
+    padding: 14px 0;
+    border-radius: 16px;
+  }
+
+  .leftBotSquare2 {
+    display: none;
+  }
+
+  .greetingsInfo::after {
+    left: -520px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+
+  .containerFeaturesCon {
+    max-width: 1032px;
+  }
+
+  .title {
+    font-size: 56px;
+    line-height: 69px;
+  }
+
+  .titleDec {
+    transform: scale(1);
+    opacity: unset;
+  }
+
+  .accent {
+    font-size: 56px;
+    line-height: 69px;
+  }
+
+  .greetingsMain {
+    gap: 90px;
+  }
+
+  .greetingsInfo {
+    flex: 0 0 492px;
+  }
+
+  .greetingsText {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0 0 30px;
+  }
+
+  .leftBotSquare2 {
+    display: none;
+  }
+
+  .greetingsInfo::after {
+    left: -500px;
+  }
+
+  .greetingsPhone {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .containerFeaturesCon {
+    max-width: 1024px;
+    padding: 0 40px;
+  }
+
+  .title {
+    font-size: 48px;
+    line-height: 59px;
+  }
+
+  .titleDec {
+    transform: scale(1);
+    opacity: unset;
+  }
+
+  .accent {
+    color: #ff474d;
+    font-size: 48px;
+    line-height: 59px;
+  }
+
+  .greetingsMain {
+    gap: 60px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .greetingsInfo {
+    flex: 0 0 430px;
+    order: 0;
+  }
+
+  .contactImage {
+    display: inline-flex;
+    margin-right: 8px;
+    max-width: 16px;
+    border-style: none;
+  }
+
+  .leftTopSquare {
+    left: -240px;
+    top: -280px;
+  }
+
+  .leftBotSquare {
+    top: -25px;
+  }
+
+  .leftBotSquare2 {
+    display: none;
+  }
+
+  .greetingsInfo::after {
+    left: -400px;
+  }
+
+  .phoneWrapper::before {
+    bottom: -61px;
+    right: -45px;
+  }
+
+  .greetingsPhone {
+    height: 600px;
+  }
+
+  .dec1::before {
+    top: -4px;
+    left: -35px;
+  }
+
+  .phoneWrapper::after {
+    top: 110px;
+    right: -80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .containerFeaturesCon {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .title {
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0 0 16px;
+  }
+
+  .titleDec {
+    transform: scale(1);
+    opacity: 1;
+    top: -25px;
+    left: -66px;
+  }
+
+  .accent {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .subTitle {
+    margin: 0 0 40px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .greetingsMain {
+    gap: unset;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  .greetingsInfo {
+    flex: none;
+    order: 2;
+    padding: 48px 0;
+  }
+
+  .greetingsButton {
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 20px;
+    width: 188px;
+    height: 48px;
+    padding: 14px 0;
+    border-radius: 16px;
+  }
+
+  .leftTopSquare {
+    left: -200px;
+    top: -149px;
+  }
+
+  .leftBotSquare {
+    top: 42px;
+    left: -336px;
+  }
+
+  .leftBotSquare2 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(95.51% 95.51% at 50% 50%, rgb(218, 218, 218) 0%, rgb(250, 250, 250) 100%);
+    opacity: 0.15;
+    border-radius: 37px;
+    transform: rotate(-45deg);
+    z-index: -1;
+    left: -200px;
+    top: 550px;
+  }
+
+  .greetingsInfo::after {
+    left: -16px;
+  }
+
+  .phoneWrapper {
+    margin-bottom: 40px;
+  }
+
+  .phoneWrapper::before {
+    bottom: -22px;
+    right: 67px;
+    content: url("../../assets/img/phDotsB768.svg");
+    z-index: -1;
+  }
+
+  .greetingsPhone {
+    height: 700px;
+  }
+
+  .dec1::before {
+    top: -10px;
+    left: 55px;
+  }
+
+  .rSquare {
+    top: -120px;
+    right: -459px;
+  }
+
+  .phoneWrapper::after {
+    top: 75px;
+    right: -154px;
+    width: 256px;
+    height: 246px;
+    rotate: -11deg;
+  }
+}
+
+@media screen and (max-width: 376px) {
+
+  .containerFeaturesCon {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .title {
+    font-size: 44px;
+    line-height: 52px;
+    margin: 0 0 16px;
+  }
+
+  .titleDec {
+    transform: scale(1);
+    opacity: unset;
+    top: -26px;
+    left: -51px;
+  }
+
+  .accent {
+    font-size: 44px;
+    line-height: 52px;
+  }
+
+  .subTitle {
+    margin: 0 0 28px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .greetingsMain {
+    gap: unset;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .greetingsInfo {
+    flex: none;
+    order: 2;
+    padding: 48px 0;
+  }
+
+  .greetingsText {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0 0 30px;
+  }
+
+  .greetingsButton {
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 20px;
+    width: 188px;
+    height: 48px;
+    padding: 14px 0;
+    border-radius: 16px;
+  }
+
+  .leftTopSquare {
+    left: -118px;
+    top: -173px;
+  }
+
+  .leftBotSquare {
+    top: 100px;
+    left: -240px;
+  }
+
+  .leftBotSquare2 {
+    display: none;
+  }
+
+  .greetingsInfo::after {
+    left: -16px;
+  }
+
+  .phoneWrapper {
+    margin-bottom: 40px;
+  }
+
+  .phoneWrapper::before {
+    bottom: -120px;
+    right: -30px;
+    content: url("../../assets/img/phDotsB375.svg");
+
+  }
+
+  .greetingsPhone {
+    height: 433px;
+  }
+
+  .dec1::before {
+    top: 60px;
+    left: -209px;
+    content: url('../../assets/img/phDotsT.svg');
+  }
+
+  .rSquare {
+    top: -60px;
+    right: -547px;
+  }
+
+  .phoneWrapper::after {
+    display: block;
+    content: url('../../assets/img/phDec375.svg');
+    top: 186px;
+    right: -161px;
+    position: absolute;
+    z-index: 1;
+  }
+}
