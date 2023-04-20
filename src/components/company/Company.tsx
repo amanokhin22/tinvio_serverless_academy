@@ -6,6 +6,9 @@ import {Footer} from "../Footer";
 import {Greetings} from "./Greetings";
 import {Done} from "./Done";
 import {Counts} from "./Counts";
+import {Teamvio} from "./Teamvio";
+import {Commitments} from "./Commitments";
+import {Role} from "./Role";
 
 export const Company = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -27,9 +30,9 @@ export const Company = () => {
                 <Greetings/>
                 <Done/>
                 <Counts/>
-                <section></section>
-                <section></section>
-                <section></section>
+                <Teamvio/>
+                <Commitments/>
+                <Role/>
                 <section></section>
                 <Footer/>
             </main>
