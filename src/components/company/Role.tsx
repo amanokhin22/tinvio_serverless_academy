@@ -33,12 +33,12 @@ export const images: imagesItems[] = [
 export const images2: imagesItems[] = [
     {
         image: `${role3}`,
-        className: `${styles.thirdImg}`,
+        className: `${styles.secondImg}`,
         delay: 2000,
     },
     {
         image: `${role4}`,
-        className: `${styles.fourthImg}`,
+        className: `${styles.firstImg}`,
         delay: 4000,
     },
 
@@ -108,10 +108,10 @@ export const Role = () => {
                                             }
                                         }}
                                     >
-                                        <div className={index === 0 ? image.className : styles.galleryImg}>
+                                        <div className={styles.galleryImg}>
                                     <span className={styles.aloneSpan}>
                                         <img src={image.image} alt="images"
-                                             className={index === 0 ? image.className : styles.aloneImage}/>
+                                             className={index === 1 ? image.className : styles.aloneImage}/>
                                     </span>
                                         </div>
                                     </div>
@@ -131,7 +131,8 @@ export const Role = () => {
                             </span>
                             Global, local, remote. Find the perfect role
                         </h2>
-                        <a href="https://www.linkedin.com/company/tinvio/jobs/" className={styles.roleLink} target="_blank" rel="noreferrer noopener">Explore Roles</a>
+                        <a href="https://www.linkedin.com/company/tinvio/jobs/" className={styles.roleLink}
+                           target="_blank" rel="noreferrer noopener">Explore Roles</a>
                     </div>
                 </div>
             </div>

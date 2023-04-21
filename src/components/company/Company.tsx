@@ -9,6 +9,7 @@ import {Counts} from "./Counts";
 import {Teamvio} from "./Teamvio";
 import {Commitments} from "./Commitments";
 import {Role} from "./Role";
+import {Contact} from "./Contact";
 
 export const Company = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +34,7 @@ export const Company = () => {
                 <Teamvio/>
                 <Commitments/>
                 <Role/>
-                <section></section>
+                <Contact handleOpenModal={handleOpenModal}/>
                 <Footer/>
             </main>
         </div>

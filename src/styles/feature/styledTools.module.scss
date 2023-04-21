@@ -1,3 +1,60 @@
+@media screen and (max-width: 1920px) {
+  .styledTools {
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+  }
+  .fullCon {
+    margin-left: 234px;
+    width: 100%;
+  }
+  .toolsManage {
+    flex: 0 0 714px;
+    margin-left: 0;
+  }
+  .toolsManage::before {
+    left: -20px;
+  }
+  .manageTitle {
+    font-size: 28px;
+    line-height: 35px;
+
+  }
+  .manageText {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .message::after {
+    right: 179px;
+  }
+  .messageButtons {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    margin-left: 133px;
+  }
+  .messageTitle {
+    font-size: 28px;
+    line-height: 35px;
+    text-align: left;
+    margin-left: 222px;
+  }
+  .shareDecDots {
+    left: 170px;
+  }
+  .shareBlock1 {
+    margin: 0 auto 16px 121px;
+  }
+  .shareTitle {
+    text-align: left;
+    margin-left: 59px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .share::after {
+    left: 200px;
+  }
+}
+
 //desktop view
 .styledTools {
   margin-bottom: 80px;
@@ -9,6 +66,7 @@
   -webkit-box-pack: justify;
   justify-content: space-between;
   gap: 24px;
+  margin: 0;
 }
 
 .toolsManage {
@@ -208,7 +266,9 @@
   min-height: 100%;
   max-height: 100%;
 }
-
+.wrapper {
+  flex: 1 1 0%;
+}
 .countsWrapper {
   flex: 1 1 0;
   display: block;
@@ -518,63 +578,6 @@
   position: absolute;
   top: -7px;
   z-index: -1;
-}
-
-@media screen and (max-width: 1920px) {
-  .styledTools {
-    display: flex;
-    -webkit-box-pack: end;
-    justify-content: flex-end;
-  }
-  .fullCon {
-    margin-left: 234px;
-    width: 100%;
-  }
-  .toolsManage {
-    flex: 0 0 714px;
-    margin-left: 0;
-  }
-  .toolsManage::before {
-    left: -20px;
-  }
-  .manageTitle {
-    font-size: 28px;
-    line-height: 35px;
-
-  }
-  .manageText {
-    font-size: 16px;
-    line-height: 24px;
-  }
-  .message::after {
-    right: 179px;
-  }
-  .messageButtons {
-    -webkit-box-pack: start;
-    justify-content: flex-start;
-    margin-left: 133px;
-  }
-  .messageTitle {
-    font-size: 28px;
-    line-height: 35px;
-    text-align: left;
-    margin-left: 222px;
-  }
-  .shareDecDots {
-    left: 170px;
-  }
-  .shareBlock1 {
-    margin: 0 auto 16px 121px;
-  }
-  .shareTitle {
-    text-align: left;
-    margin-left: 59px;
-    font-size: 24px;
-    line-height: 30px;
-  }
-  .share::after {
-    left: 200px;
-  }
 }
 
 @media screen and (max-width: 1440px) {

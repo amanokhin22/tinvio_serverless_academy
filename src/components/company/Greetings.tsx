@@ -3,6 +3,7 @@ import styles from "../../styles/company/greetings.module.scss";
 import greetingsDec768 from "../../assets/img/greetingsDec768.svg";
 import chatIcon from "../../assets/img/chatIcon.svg";
 import greetingsPhone from "../../assets/img/greetingsPhone.png";
+import {Link} from "react-router-dom";
 
 export const Greetings = () => {
     return (
@@ -34,14 +35,12 @@ export const Greetings = () => {
                             keying manual transfers. We're going to reimagine the status quo,
                             we're going to digitize the zillions of these offline receivables and
                             payables. One transaction at a time.</p>
-                        <a href="/Contacts" style={{
-                            textDecoration: "none"
-                        }}>
-                            <button className={styles.greetingsButton}>
+                            <a href="#foo" style={{
+                                textDecoration: "none"
+                            }} className={styles.greetingsButton}>
                                 <img src={chatIcon} alt="chatIcon" className={styles.contactImage}/>
                                 Contact Us
-                            </button>
-                        </a>
+                            </a>
                         <div className={styles.leftTopSquare}></div>
                         <div className={styles.leftBotSquare}></div>
                         <div className={styles.leftBotSquare2}></div>
