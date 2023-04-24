@@ -7,7 +7,6 @@ import Terms from "./Terms";
 import {Header} from "../Header";
 import {Footer} from "../Footer";
 import {useLocation} from "react-router-dom";
-import privacy from "./Privacy";
 
 type TabsType = {
     label: string;
@@ -36,7 +35,6 @@ export const LegalInfo = () => {
     const {pathname} = useLocation();
 
     useEffect(() => {
-        console.log(pathname)
         const [_, pageUrl] = pathname.split("/");
         setSelectedTab(tabs.find((tab) => tab.pageUrl === pageUrl)?.index || tabs[0].index)
     }, [pathname])
