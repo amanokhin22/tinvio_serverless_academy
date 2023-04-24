@@ -18,7 +18,7 @@ export interface propsTypeModal {
 export const Contact: FC<propsTypeModal> = ({handleOpenModal}) => {
 
     return (
-        <section id={'foo'} className={styles.contactWrapper}>
+        <section id='contact' className={styles.contactWrapper}>
 
             <div className={styles.containerFeaturesCon}>
                 <div className={styles.squareRight}></div>

@@ -1,0 +1,359 @@
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  background-color: #fff;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.global {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.legalMain {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  display: block;
+}
+
+//desktop view
+.legal {
+  display: block;
+}
+
+.tabContainer {
+  max-width: 752px;
+  padding: 140px 0 80px;
+  margin: 0 auto;
+}
+
+.tabTitle {
+  font-size: 36px;
+  line-height: 44px;
+  margin: 0 0 48px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  color: #212121;
+  text-align: center;
+}
+
+.currentTabCon {
+  margin-bottom: 32px;
+  display: flex;
+}
+
+.currentTabName {
+  font-size: 24px;
+  line-height: 29px;
+  position: relative;
+  background-color: transparent;
+  border: none;
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  color: rgb(189, 189, 189);
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+  padding: 0 0 9px;
+  flex: 1 1 0;
+  -webkit-appearance: button;
+  text-transform: none;
+  overflow: visible;
+  display: block;
+}
+
+.currentTabName::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(196, 196, 196);;
+}
+
+.currentTabName.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #ff474d;
+}
+
+.active {
+  color: #ff474d;
+  font-size: 24px;
+  line-height: 29px;
+  position: relative;
+  background-color: transparent;
+  border: none;
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+  padding: 0 0 9px;
+  flex: 1 1 0;
+  -webkit-appearance: button;
+  text-transform: none;
+  overflow: visible;
+}
+
+.tabWrapper {
+  display: block;
+}
+
+.tabSection {
+  margin: 0 0 48px;
+}
+
+.tabText {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #212121;
+  margin: 0 0 20px;
+}
+
+.tabSubTitle {
+  font-family: Gilroy, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #212121;
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+.tabUl {
+  margin: 0 0 20px;
+  padding: 0 0 0 22px;
+}
+
+.tabUl:last-child {
+  margin-bottom: 0;
+}
+
+.tabLi {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #212121;
+  margin-bottom: 5px;
+}
+
+.tabLi:last-child {
+  margin-bottom: 0;
+}
+
+.tabLi::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0 !important;
+  text-align: start !important;
+  text-align-last: start !important;
+}
+
+@media screen and (max-width: 1920px) {
+
+  .tabTitle {
+    font-size: 44px;
+    line-height: 54px;
+    margin: 0 0 42px;
+  }
+
+  .currentTabName {
+    font-size: 28px;
+    line-height: 34px;
+    padding: 0 0 7px;
+  }
+
+  .tabText {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .tabSubTitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .tabLi {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .tabContainer {
+    max-width: 752px;
+    padding: 140px 0 80px;
+    margin: 0 auto;
+  }
+  .tabTitle {
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0 0 48px;
+  }
+
+  .currentTabName {
+    font-size: 24px;
+    line-height: 29px;
+    padding: 0 0 9px;
+  }
+
+  .tabText {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .tabSubTitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .tabLi {
+    font-size: 14px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+
+  .tabContainer {
+    max-width: 752px;
+    padding: 140px 0 80px;
+    margin: 0 auto;
+  }
+
+  .tabTitle {
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0 0 48px;
+  }
+
+  .currentTabCon {
+    margin-bottom: 32px;
+  }
+
+  .tabSection {
+    margin: 0 0 48px;
+  }
+
+  .tabText {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .tabSubTitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .tabContainer {
+    max-width: 1024px;
+    padding: 140px 40px 80px;
+    margin: 0 auto;
+  }
+
+  .tabTitle {
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0 0 48px;
+  }
+
+  .currentTabCon {
+    margin-bottom: 32px;
+  }
+
+  .tabText {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .tabSubTitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .tabContainer {
+    max-width: 768px;
+    padding: 140px 16px 80px;
+    margin: 0 auto;
+  }
+
+  .tabTitle {
+    font-size: 32px;
+    line-height: 39px;
+    margin: 0 0 40px;
+  }
+
+  .currentTabCon {
+    margin-bottom: 32px;
+  }
+
+  .currentTabName {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .active {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .tabSubTitle {
+    font-family: Gilroy, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #212121;
+    margin: 0 0 16px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .tabContainer {
+    max-width: 375px;
+    padding: 140px 16px 80px;
+    margin: 0 auto;
+  }
+
+  .tabTitle {
+    font-size: 28px;
+    line-height: 34px;
+    margin: 0 0 48px;
+  }
+
+  .currentTabCon {
+    margin-bottom: 43px;
+  }
+
+  .currentTabName {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
